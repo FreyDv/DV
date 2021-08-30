@@ -1,0 +1,20 @@
+{
+  "name": "vendor_name/lali.print",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Frey",
+      "email": "ldfm0401@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ishop\\": "vendor/ishop/core",
+      "app\\": "app"
+    }
+  },
+  "require": {
+  }
+}

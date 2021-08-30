@@ -1,0 +1,1331 @@
+2021/08/19 10:06:29 [notice] 1#1: using the "epoll" event method
+2021/08/19 10:06:29 [notice] 1#1: nginx/1.21.1
+2021/08/19 10:06:29 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/19 10:06:29 [notice] 1#1: OS: Linux 5.10.47-linuxkit
+2021/08/19 10:06:29 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/19 10:06:29 [notice] 1#1: start worker processes
+2021/08/19 10:06:29 [notice] 1#1: start worker process 23
+2021/08/19 10:06:29 [notice] 1#1: start worker process 24
+2021/08/19 12:12:46 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/19 12:12:46 [notice] 23#23: gracefully shutting down
+2021/08/19 12:12:46 [notice] 23#23: exiting
+2021/08/19 12:12:46 [notice] 24#24: gracefully shutting down
+2021/08/19 12:12:46 [notice] 23#23: exit
+2021/08/19 12:12:46 [notice] 24#24: exiting
+2021/08/19 12:12:46 [notice] 24#24: exit
+2021/08/19 12:12:46 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/08/19 12:12:46 [notice] 1#1: worker process 23 exited with code 0
+2021/08/19 12:12:46 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/19 12:12:46 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/08/19 12:12:46 [notice] 1#1: worker process 24 exited with code 0
+2021/08/19 12:12:46 [notice] 1#1: exit
+2021/08/19 12:15:14 [notice] 1#1: using the "epoll" event method
+2021/08/19 12:15:14 [notice] 1#1: nginx/1.21.1
+2021/08/19 12:15:14 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/19 12:15:14 [notice] 1#1: OS: Linux 5.10.47-linuxkit
+2021/08/19 12:15:14 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/19 12:15:14 [notice] 1#1: start worker processes
+2021/08/19 12:15:14 [notice] 1#1: start worker process 22
+2021/08/19 12:15:14 [notice] 1#1: start worker process 23
+2021/08/19 12:37:21 [error] 23#23: *2 open() "/var/www/lali.print/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8000", referrer: "http://127.0.0.1:8000/"
+2021/08/19 18:46:01 [error] 22#22: *7 open() "/var/www/lali.print/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /favicon.ico HTTP/1.1", host: "lali.print:8000", referrer: "http://lali.print:8000/"
+2021/08/19 18:47:00 [error] 22#22: *10 open() "/var/www/lali.print/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/"
+2021/08/20 01:22:37 [notice] 1#1: using the "epoll" event method
+2021/08/20 01:22:37 [notice] 1#1: nginx/1.21.1
+2021/08/20 01:22:37 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/20 01:22:37 [notice] 1#1: OS: Linux 5.10.47-linuxkit
+2021/08/20 01:22:37 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/20 01:22:37 [notice] 1#1: start worker processes
+2021/08/20 01:22:37 [notice] 1#1: start worker process 22
+2021/08/20 01:22:37 [notice] 1#1: start worker process 23
+2021/08/20 01:45:14 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/20 01:45:14 [notice] 22#22: gracefully shutting down
+2021/08/20 01:45:14 [notice] 23#23: gracefully shutting down
+2021/08/20 01:45:14 [notice] 22#22: exiting
+2021/08/20 01:45:14 [notice] 23#23: exiting
+2021/08/20 01:45:14 [notice] 23#23: exit
+2021/08/20 01:45:14 [notice] 22#22: exit
+2021/08/20 01:45:14 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/08/20 01:45:14 [notice] 1#1: worker process 22 exited with code 0
+2021/08/20 01:45:14 [notice] 1#1: worker process 23 exited with code 0
+2021/08/20 01:45:14 [notice] 1#1: exit
+2021/08/20 01:47:05 [notice] 1#1: using the "epoll" event method
+2021/08/20 01:47:05 [notice] 1#1: nginx/1.21.1
+2021/08/20 01:47:05 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/20 01:47:05 [notice] 1#1: OS: Linux 5.10.47-linuxkit
+2021/08/20 01:47:05 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/20 01:47:05 [notice] 1#1: start worker processes
+2021/08/20 01:47:05 [notice] 1#1: start worker process 24
+2021/08/20 01:47:05 [notice] 1#1: start worker process 25
+2021/08/20 01:47:27 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/20 01:47:27 [notice] 24#24: gracefully shutting down
+2021/08/20 01:47:27 [notice] 25#25: gracefully shutting down
+2021/08/20 01:47:27 [notice] 24#24: exiting
+2021/08/20 01:47:27 [notice] 24#24: exit
+2021/08/20 01:47:27 [notice] 25#25: exiting
+2021/08/20 01:47:27 [notice] 25#25: exit
+2021/08/20 01:47:27 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/08/20 01:47:27 [notice] 1#1: worker process 24 exited with code 0
+2021/08/20 01:47:27 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2021/08/20 01:47:27 [notice] 1#1: worker process 25 exited with code 0
+2021/08/20 01:47:27 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/20 01:47:27 [notice] 1#1: exit
+2021/08/20 01:50:17 [notice] 1#1: using the "epoll" event method
+2021/08/20 01:50:17 [notice] 1#1: nginx/1.21.1
+2021/08/20 01:50:17 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/20 01:50:17 [notice] 1#1: OS: Linux 5.10.47-linuxkit
+2021/08/20 01:50:17 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/20 01:50:17 [notice] 1#1: start worker processes
+2021/08/20 01:50:17 [notice] 1#1: start worker process 22
+2021/08/20 01:50:17 [notice] 1#1: start worker process 23
+2021/08/20 07:50:52 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/20 07:50:52 [notice] 23#23: gracefully shutting down
+2021/08/20 07:50:52 [notice] 22#22: gracefully shutting down
+2021/08/20 07:50:52 [notice] 23#23: exiting
+2021/08/20 07:50:52 [notice] 23#23: exit
+2021/08/20 07:50:53 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/08/20 07:50:53 [notice] 1#1: worker process 23 exited with code 0
+2021/08/20 07:50:53 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/20 07:50:56 [notice] 22#22: exiting
+2021/08/20 07:50:56 [notice] 22#22: exit
+2021/08/20 07:50:56 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/08/20 07:50:56 [notice] 1#1: worker process 22 exited with code 0
+2021/08/20 07:50:56 [notice] 1#1: exit
+2021/08/20 07:54:10 [notice] 1#1: using the "epoll" event method
+2021/08/20 07:54:10 [notice] 1#1: nginx/1.21.1
+2021/08/20 07:54:10 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/20 07:54:10 [notice] 1#1: OS: Linux 5.10.47-linuxkit
+2021/08/20 07:54:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/20 07:54:10 [notice] 1#1: start worker processes
+2021/08/20 07:54:10 [notice] 1#1: start worker process 22
+2021/08/20 07:54:10 [notice] 1#1: start worker process 23
+2021/08/20 10:07:31 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/20 10:07:31 [notice] 22#22: gracefully shutting down
+2021/08/20 10:07:31 [notice] 23#23: gracefully shutting down
+2021/08/20 10:07:31 [notice] 22#22: exiting
+2021/08/20 10:07:31 [notice] 23#23: exiting
+2021/08/20 10:07:31 [notice] 22#22: exit
+2021/08/20 10:07:31 [notice] 23#23: exit
+2021/08/20 10:07:31 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/08/20 10:07:31 [notice] 1#1: worker process 23 exited with code 0
+2021/08/20 10:07:31 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/20 10:07:31 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/08/20 10:07:31 [notice] 1#1: worker process 22 exited with code 0
+2021/08/20 10:07:31 [notice] 1#1: exit
+2021/08/20 10:07:34 [notice] 1#1: using the "epoll" event method
+2021/08/20 10:07:34 [notice] 1#1: nginx/1.21.1
+2021/08/20 10:07:34 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/20 10:07:34 [notice] 1#1: OS: Linux 5.10.47-linuxkit
+2021/08/20 10:07:34 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/20 10:07:34 [notice] 1#1: start worker processes
+2021/08/20 10:07:34 [notice] 1#1: start worker process 22
+2021/08/20 10:07:34 [notice] 1#1: start worker process 23
+2021/08/20 10:24:20 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/20 10:24:20 [notice] 23#23: gracefully shutting down
+2021/08/20 10:24:20 [notice] 22#22: gracefully shutting down
+2021/08/20 10:24:20 [notice] 23#23: exiting
+2021/08/20 10:24:20 [notice] 22#22: exiting
+2021/08/20 10:24:20 [notice] 23#23: exit
+2021/08/20 10:24:20 [notice] 22#22: exit
+2021/08/20 10:24:20 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/08/20 10:24:20 [notice] 1#1: worker process 23 exited with code 0
+2021/08/20 10:24:20 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/20 10:24:20 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/08/20 10:24:20 [notice] 1#1: worker process 22 exited with code 0
+2021/08/20 10:24:20 [notice] 1#1: exit
+2021/08/20 10:24:22 [notice] 1#1: using the "epoll" event method
+2021/08/20 10:24:22 [notice] 1#1: nginx/1.21.1
+2021/08/20 10:24:22 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/20 10:24:22 [notice] 1#1: OS: Linux 5.10.47-linuxkit
+2021/08/20 10:24:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/20 10:24:22 [notice] 1#1: start worker processes
+2021/08/20 10:24:22 [notice] 1#1: start worker process 23
+2021/08/20 10:24:22 [notice] 1#1: start worker process 24
+2021/08/20 10:25:39 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/20 10:25:39 [notice] 23#23: gracefully shutting down
+2021/08/20 10:25:39 [notice] 23#23: exiting
+2021/08/20 10:25:39 [notice] 24#24: gracefully shutting down
+2021/08/20 10:25:39 [notice] 23#23: exit
+2021/08/20 10:25:39 [notice] 24#24: exiting
+2021/08/20 10:25:39 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/08/20 10:25:39 [notice] 1#1: worker process 23 exited with code 0
+2021/08/20 10:25:39 [notice] 24#24: exit
+2021/08/20 10:25:39 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/20 10:25:39 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/08/20 10:25:39 [notice] 1#1: worker process 24 exited with code 0
+2021/08/20 10:25:39 [notice] 1#1: exit
+2021/08/20 10:25:40 [notice] 1#1: using the "epoll" event method
+2021/08/20 10:25:40 [notice] 1#1: nginx/1.21.1
+2021/08/20 10:25:40 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/20 10:25:40 [notice] 1#1: OS: Linux 5.10.47-linuxkit
+2021/08/20 10:25:40 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/20 10:25:40 [notice] 1#1: start worker processes
+2021/08/20 10:25:40 [notice] 1#1: start worker process 22
+2021/08/20 10:25:40 [notice] 1#1: start worker process 23
+2021/08/20 10:33:27 [notice] 1#1: using the "epoll" event method
+2021/08/20 10:33:27 [notice] 1#1: nginx/1.21.1
+2021/08/20 10:33:27 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/20 10:33:27 [notice] 1#1: OS: Linux 5.10.47-linuxkit
+2021/08/20 10:33:27 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/20 10:33:27 [notice] 1#1: start worker processes
+2021/08/20 10:33:27 [notice] 1#1: start worker process 23
+2021/08/20 10:33:27 [notice] 1#1: start worker process 24
+2021/08/20 10:34:49 [error] 23#23: *2 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: lali.print, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "lali.print:8000"
+2021/08/20 13:20:08 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/20 13:20:08 [notice] 23#23: gracefully shutting down
+2021/08/20 13:20:08 [notice] 24#24: gracefully shutting down
+2021/08/20 13:20:08 [notice] 23#23: exiting
+2021/08/20 13:20:08 [notice] 24#24: exiting
+2021/08/20 13:20:08 [notice] 23#23: exit
+2021/08/20 13:20:08 [notice] 24#24: exit
+2021/08/20 13:20:08 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/08/20 13:20:08 [notice] 1#1: worker process 23 exited with code 0
+2021/08/20 13:20:08 [notice] 1#1: worker process 24 exited with code 0
+2021/08/20 13:20:08 [notice] 1#1: exit
+2021/08/20 13:20:10 [notice] 1#1: using the "epoll" event method
+2021/08/20 13:20:10 [notice] 1#1: nginx/1.21.1
+2021/08/20 13:20:10 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/20 13:20:10 [notice] 1#1: OS: Linux 5.10.47-linuxkit
+2021/08/20 13:20:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/20 13:20:10 [notice] 1#1: start worker processes
+2021/08/20 13:20:10 [notice] 1#1: start worker process 22
+2021/08/20 13:20:10 [notice] 1#1: start worker process 23
+2021/08/20 13:20:55 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/20 13:20:55 [notice] 23#23: gracefully shutting down
+2021/08/20 13:20:55 [notice] 22#22: gracefully shutting down
+2021/08/20 13:20:55 [notice] 23#23: exiting
+2021/08/20 13:20:55 [notice] 22#22: exiting
+2021/08/20 13:20:55 [notice] 23#23: exit
+2021/08/20 13:20:55 [notice] 22#22: exit
+2021/08/20 13:20:55 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/08/20 13:20:55 [notice] 1#1: worker process 23 exited with code 0
+2021/08/20 13:20:55 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/20 13:20:55 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/08/20 13:20:55 [notice] 1#1: worker process 22 exited with code 0
+2021/08/20 13:20:55 [notice] 1#1: exit
+2021/08/20 13:20:57 [notice] 1#1: using the "epoll" event method
+2021/08/20 13:20:57 [notice] 1#1: nginx/1.21.1
+2021/08/20 13:20:57 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/20 13:20:57 [notice] 1#1: OS: Linux 5.10.47-linuxkit
+2021/08/20 13:20:57 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/20 13:20:57 [notice] 1#1: start worker processes
+2021/08/20 13:20:57 [notice] 1#1: start worker process 23
+2021/08/20 13:20:57 [notice] 1#1: start worker process 24
+2021/08/20 13:21:41 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/20 13:21:41 [notice] 23#23: gracefully shutting down
+2021/08/20 13:21:41 [notice] 23#23: exiting
+2021/08/20 13:21:41 [notice] 24#24: gracefully shutting down
+2021/08/20 13:21:41 [notice] 23#23: exit
+2021/08/20 13:21:41 [notice] 24#24: exiting
+2021/08/20 13:21:41 [notice] 24#24: exit
+2021/08/20 13:21:42 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/08/20 13:21:42 [notice] 1#1: worker process 23 exited with code 0
+2021/08/20 13:21:42 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/20 13:21:42 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/08/20 13:21:42 [notice] 1#1: worker process 24 exited with code 0
+2021/08/20 13:21:42 [notice] 1#1: exit
+2021/08/20 13:22:18 [notice] 1#1: using the "epoll" event method
+2021/08/20 13:22:18 [notice] 1#1: nginx/1.21.1
+2021/08/20 13:22:18 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/20 13:22:18 [notice] 1#1: OS: Linux 5.10.47-linuxkit
+2021/08/20 13:22:18 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/20 13:22:18 [notice] 1#1: start worker processes
+2021/08/20 13:22:18 [notice] 1#1: start worker process 22
+2021/08/20 13:22:18 [notice] 1#1: start worker process 23
+2021/08/20 13:24:48 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/20 13:24:48 [notice] 22#22: gracefully shutting down
+2021/08/20 13:24:48 [notice] 22#22: exiting
+2021/08/20 13:24:48 [notice] 23#23: gracefully shutting down
+2021/08/20 13:24:48 [notice] 22#22: exit
+2021/08/20 13:24:48 [notice] 23#23: exiting
+2021/08/20 13:24:48 [notice] 23#23: exit
+2021/08/20 13:24:48 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/08/20 13:24:48 [notice] 1#1: worker process 22 exited with code 0
+2021/08/20 13:24:48 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/20 13:24:49 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/08/20 13:24:49 [notice] 1#1: worker process 23 exited with code 0
+2021/08/20 13:24:49 [notice] 1#1: exit
+2021/08/20 13:24:50 [notice] 1#1: using the "epoll" event method
+2021/08/20 13:24:50 [notice] 1#1: nginx/1.21.1
+2021/08/20 13:24:50 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/20 13:24:50 [notice] 1#1: OS: Linux 5.10.47-linuxkit
+2021/08/20 13:24:50 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/20 13:24:50 [notice] 1#1: start worker processes
+2021/08/20 13:24:50 [notice] 1#1: start worker process 24
+2021/08/20 13:24:50 [notice] 1#1: start worker process 25
+2021/08/20 13:39:11 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/20 13:39:11 [notice] 24#24: gracefully shutting down
+2021/08/20 13:39:11 [notice] 25#25: gracefully shutting down
+2021/08/20 13:39:11 [notice] 24#24: exiting
+2021/08/20 13:39:11 [notice] 25#25: exiting
+2021/08/20 13:39:11 [notice] 24#24: exit
+2021/08/20 13:39:11 [notice] 25#25: exit
+2021/08/20 13:39:11 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2021/08/20 13:39:11 [notice] 1#1: worker process 25 exited with code 0
+2021/08/20 13:39:11 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/20 13:39:11 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/08/20 13:39:11 [notice] 1#1: worker process 24 exited with code 0
+2021/08/20 13:39:11 [notice] 1#1: exit
+2021/08/20 13:39:13 [notice] 1#1: using the "epoll" event method
+2021/08/20 13:39:13 [notice] 1#1: nginx/1.21.1
+2021/08/20 13:39:13 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/20 13:39:13 [notice] 1#1: OS: Linux 5.10.47-linuxkit
+2021/08/20 13:39:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/20 13:39:13 [notice] 1#1: start worker processes
+2021/08/20 13:39:13 [notice] 1#1: start worker process 22
+2021/08/20 13:39:13 [notice] 1#1: start worker process 23
+2021/08/20 23:24:25 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/20 23:24:25 [notice] 22#22: gracefully shutting down
+2021/08/20 23:24:25 [notice] 23#23: gracefully shutting down
+2021/08/20 23:24:25 [notice] 23#23: exiting
+2021/08/20 23:24:25 [notice] 22#22: exiting
+2021/08/20 23:24:25 [notice] 22#22: exit
+2021/08/20 23:24:25 [notice] 23#23: exit
+2021/08/20 23:24:25 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/08/20 23:24:25 [notice] 1#1: worker process 23 exited with code 0
+2021/08/20 23:24:25 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/20 23:24:25 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/08/20 23:24:25 [notice] 1#1: worker process 22 exited with code 0
+2021/08/20 23:24:25 [notice] 1#1: exit
+2021/08/20 23:24:27 [notice] 1#1: using the "epoll" event method
+2021/08/20 23:24:27 [notice] 1#1: nginx/1.21.1
+2021/08/20 23:24:27 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/20 23:24:27 [notice] 1#1: OS: Linux 5.10.47-linuxkit
+2021/08/20 23:24:27 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/20 23:24:27 [notice] 1#1: start worker processes
+2021/08/20 23:24:27 [notice] 1#1: start worker process 25
+2021/08/20 23:24:27 [notice] 1#1: start worker process 26
+2021/08/21 18:07:43 [error] 25#25: *7 open() "/var/www/lali.print/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /favicon.ico HTTP/1.1", host: "lali.print:8000", referrer: "http://lali.print:8000/"
+2021/08/21 19:21:29 [error] 25#25: *8 directory index of "/var/www/lali.print/" is forbidden, client: 172.18.0.1, server: lali.print, request: "GET / HTTP/1.1", host: "lali.print:8000"
+2021/08/21 19:21:35 [error] 25#25: *8 directory index of "/var/www/lali.print/" is forbidden, client: 172.18.0.1, server: lali.print, request: "GET / HTTP/1.1", host: "lali.print:8000"
+2021/08/21 19:21:38 [error] 25#25: *9 directory index of "/var/www/lali.print/" is forbidden, client: 172.18.0.1, server: lali.print, request: "GET / HTTP/1.1", host: "lali.print:8000"
+2021/08/21 19:21:41 [error] 25#25: *8 open() "/var/www/lali.print/pablic" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /pablic HTTP/1.1", host: "lali.print:8000"
+2021/08/21 19:21:41 [error] 25#25: *9 open() "/var/www/lali.print/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /favicon.ico HTTP/1.1", host: "lali.print:8000", referrer: "http://lali.print:8000/pablic"
+2021/08/21 19:21:45 [error] 25#25: *9 open() "/var/www/lali.print/pablic" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /pablic HTTP/1.1", host: "lali.print:8000"
+2021/08/21 19:21:45 [error] 25#25: *9 directory index of "/var/www/lali.print/" is forbidden, client: 172.18.0.1, server: lali.print, request: "GET / HTTP/1.1", host: "lali.print:8000"
+2021/08/21 19:21:51 [error] 25#25: *8 directory index of "/var/www/lali.print/" is forbidden, client: 172.18.0.1, server: lali.print, request: "GET / HTTP/1.1", host: "lali.print:8000"
+2021/08/21 19:21:57 [error] 25#25: *8 directory index of "/var/www/lali.print/" is forbidden, client: 172.18.0.1, server: lali.print, request: "GET / HTTP/1.1", host: "lali.print:8000"
+2021/08/21 19:22:16 [error] 25#25: *8 directory index of "/var/www/lali.print/" is forbidden, client: 172.18.0.1, server: lali.print, request: "GET / HTTP/1.1", host: "lali.print:8000"
+2021/08/21 19:23:30 [error] 25#25: *10 directory index of "/var/www/lali.print/" is forbidden, client: 172.18.0.1, server: lali.print, request: "GET / HTTP/1.1", host: "lali.print:8000"
+2021/08/21 19:23:42 [error] 25#25: *10 directory index of "/var/www/lali.print/" is forbidden, client: 172.18.0.1, server: lali.print, request: "GET / HTTP/1.1", host: "lali.print:8000"
+2021/08/21 19:23:55 [error] 25#25: *10 directory index of "/var/www/lali.print/" is forbidden, client: 172.18.0.1, server: lali.print, request: "GET / HTTP/1.1", host: "lali.print:8000"
+2021/08/21 19:23:56 [error] 25#25: *10 directory index of "/var/www/lali.print/" is forbidden, client: 172.18.0.1, server: lali.print, request: "GET / HTTP/1.1", host: "lali.print:8000"
+2021/08/21 19:24:35 [error] 25#25: *11 directory index of "/var/www/lali.print/" is forbidden, client: 172.18.0.1, server: lali.print, request: "GET / HTTP/1.1", host: "lali.print:8000"
+2021/08/21 19:24:36 [error] 25#25: *11 directory index of "/var/www/lali.print/" is forbidden, client: 172.18.0.1, server: lali.print, request: "GET / HTTP/1.1", host: "lali.print:8000"
+2021/08/21 19:24:41 [error] 25#25: *11 directory index of "/var/www/lali.print/" is forbidden, client: 172.18.0.1, server: lali.print, request: "GET / HTTP/1.1", host: "lali.print:8000"
+2021/08/21 19:24:42 [error] 25#25: *11 directory index of "/var/www/lali.print/" is forbidden, client: 172.18.0.1, server: lali.print, request: "GET / HTTP/1.1", host: "lali.print:8000"
+2021/08/21 19:25:05 [error] 25#25: *11 directory index of "/var/www/lali.print/" is forbidden, client: 172.18.0.1, server: lali.print, request: "GET / HTTP/1.1", host: "lali.print:8000"
+2021/08/21 19:25:06 [error] 25#25: *11 directory index of "/var/www/lali.print/" is forbidden, client: 172.18.0.1, server: lali.print, request: "GET / HTTP/1.1", host: "lali.print:8000"
+2021/08/21 19:27:23 [error] 25#25: *14 directory index of "/var/www/lali.print/" is forbidden, client: 172.18.0.1, server: lali.print, request: "GET / HTTP/1.1", host: "lali.print:8000"
+2021/08/21 23:35:26 [error] 25#25: *15 directory index of "/var/www/lali.print/" is forbidden, client: 172.18.0.1, server: lali.print, request: "GET / HTTP/1.1", host: "lali.print:8000"
+2021/08/21 23:35:27 [error] 25#25: *15 directory index of "/var/www/lali.print/" is forbidden, client: 172.18.0.1, server: lali.print, request: "GET / HTTP/1.1", host: "lali.print:8000"
+2021/08/21 23:35:33 [error] 25#25: *15 directory index of "/var/www/lali.print/" is forbidden, client: 172.18.0.1, server: lali.print, request: "GET / HTTP/1.1", host: "lali.print:8000"
+2021/08/21 23:35:34 [error] 25#25: *15 directory index of "/var/www/lali.print/" is forbidden, client: 172.18.0.1, server: lali.print, request: "GET / HTTP/1.1", host: "lali.print:8000"
+2021/08/21 23:35:38 [error] 25#25: *15 directory index of "/var/www/lali.print/" is forbidden, client: 172.18.0.1, server: lali.print, request: "GET / HTTP/1.1", host: "lali.print:8000"
+2021/08/21 23:36:27 [error] 25#25: *16 directory index of "/var/www/lali.print/" is forbidden, client: 172.18.0.1, server: lali.print, request: "GET / HTTP/1.1", host: "lali.print:8000"
+2021/08/21 23:36:28 [error] 25#25: *16 directory index of "/var/www/lali.print/" is forbidden, client: 172.18.0.1, server: lali.print, request: "GET / HTTP/1.1", host: "lali.print:8000"
+2021/08/21 23:36:28 [error] 25#25: *16 directory index of "/var/www/lali.print/" is forbidden, client: 172.18.0.1, server: lali.print, request: "GET / HTTP/1.1", host: "lali.print:8000"
+2021/08/21 23:36:28 [error] 25#25: *16 directory index of "/var/www/lali.print/" is forbidden, client: 172.18.0.1, server: lali.print, request: "GET / HTTP/1.1", host: "lali.print:8000"
+2021/08/21 23:36:29 [error] 25#25: *16 directory index of "/var/www/lali.print/" is forbidden, client: 172.18.0.1, server: lali.print, request: "GET / HTTP/1.1", host: "lali.print:8000"
+2021/08/21 23:38:36 [notice] 54#54: signal process started
+2021/08/21 23:38:36 [notice] 1#1: signal 1 (SIGHUP) received from 54, reconfiguring
+2021/08/21 23:38:36 [notice] 1#1: reconfiguring
+2021/08/21 23:38:36 [notice] 1#1: using the "epoll" event method
+2021/08/21 23:38:36 [notice] 1#1: start worker processes
+2021/08/21 23:38:36 [notice] 1#1: start worker process 55
+2021/08/21 23:38:36 [notice] 1#1: start worker process 56
+2021/08/21 23:38:36 [notice] 25#25: gracefully shutting down
+2021/08/21 23:38:36 [notice] 26#26: gracefully shutting down
+2021/08/21 23:38:36 [notice] 26#26: exiting
+2021/08/21 23:38:36 [notice] 26#26: exit
+2021/08/21 23:38:36 [notice] 25#25: exiting
+2021/08/21 23:38:36 [notice] 25#25: exit
+2021/08/21 23:38:37 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2021/08/21 23:38:37 [notice] 1#1: worker process 25 exited with code 0
+2021/08/21 23:38:37 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/21 23:38:37 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2021/08/21 23:38:37 [notice] 1#1: worker process 26 exited with code 0
+2021/08/21 23:38:37 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/21 23:39:14 [notice] 57#57: signal process started
+2021/08/21 23:39:14 [notice] 1#1: signal 1 (SIGHUP) received from 57, reconfiguring
+2021/08/21 23:39:14 [notice] 1#1: reconfiguring
+2021/08/21 23:39:14 [notice] 1#1: using the "epoll" event method
+2021/08/21 23:39:14 [notice] 1#1: start worker processes
+2021/08/21 23:39:14 [notice] 1#1: start worker process 58
+2021/08/21 23:39:14 [notice] 1#1: start worker process 59
+2021/08/21 23:39:14 [notice] 55#55: gracefully shutting down
+2021/08/21 23:39:14 [notice] 55#55: exiting
+2021/08/21 23:39:14 [notice] 56#56: gracefully shutting down
+2021/08/21 23:39:14 [notice] 56#56: exiting
+2021/08/21 23:39:14 [notice] 55#55: exit
+2021/08/21 23:39:14 [notice] 56#56: exit
+2021/08/21 23:39:14 [notice] 1#1: signal 17 (SIGCHLD) received from 55
+2021/08/21 23:39:14 [notice] 1#1: worker process 55 exited with code 0
+2021/08/21 23:39:14 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/21 23:39:14 [notice] 1#1: signal 17 (SIGCHLD) received from 56
+2021/08/21 23:39:14 [notice] 1#1: worker process 56 exited with code 0
+2021/08/21 23:39:14 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/21 23:39:17 [error] 58#58: *22 directory index of "/var/www/lali.print/" is forbidden, client: 172.18.0.1, server: lali.print, request: "GET / HTTP/1.1", host: "lali.print:8000"
+2021/08/21 23:39:32 [notice] 60#60: signal process started
+2021/08/21 23:39:32 [notice] 1#1: signal 1 (SIGHUP) received from 60, reconfiguring
+2021/08/21 23:39:32 [notice] 1#1: reconfiguring
+2021/08/21 23:39:32 [notice] 1#1: using the "epoll" event method
+2021/08/21 23:39:32 [notice] 1#1: start worker processes
+2021/08/21 23:39:32 [notice] 1#1: start worker process 61
+2021/08/21 23:39:32 [notice] 1#1: start worker process 62
+2021/08/21 23:39:33 [notice] 59#59: gracefully shutting down
+2021/08/21 23:39:33 [notice] 59#59: exiting
+2021/08/21 23:39:33 [notice] 58#58: gracefully shutting down
+2021/08/21 23:39:33 [notice] 58#58: exiting
+2021/08/21 23:39:33 [notice] 59#59: exit
+2021/08/21 23:39:33 [notice] 58#58: exit
+2021/08/21 23:39:33 [notice] 1#1: signal 17 (SIGCHLD) received from 59
+2021/08/21 23:39:33 [notice] 1#1: worker process 59 exited with code 0
+2021/08/21 23:39:33 [notice] 1#1: worker process 58 exited with code 0
+2021/08/21 23:39:33 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/21 23:39:33 [notice] 1#1: signal 17 (SIGCHLD) received from 58
+2021/08/21 23:45:12 [error] 61#61: *25 open() "/var/www/lali.print/public/123123" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /123123 HTTP/1.1", host: "lali.print:8000"
+2021/08/21 23:45:12 [error] 61#61: *27 open() "/var/www/lali.print/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /favicon.ico HTTP/1.1", host: "lali.print:8000", referrer: "http://lali.print:8000/123123"
+2021/08/21 23:46:54 [error] 61#61: *31 open() "/var/www/lali.print/public/123123" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /123123 HTTP/1.1", host: "lali.print:8000"
+2021/08/21 23:46:56 [error] 61#61: *29 open() "/var/www/lali.print/public/1w" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /1w HTTP/1.1", host: "lali.print:8000"
+2021/08/21 23:46:56 [error] 61#61: *31 open() "/var/www/lali.print/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /favicon.ico HTTP/1.1", host: "lali.print:8000", referrer: "http://lali.print:8000/1w"
+2021/08/21 23:47:43 [notice] 63#63: signal process started
+2021/08/21 23:47:43 [notice] 1#1: signal 1 (SIGHUP) received from 63, reconfiguring
+2021/08/21 23:47:43 [notice] 1#1: reconfiguring
+2021/08/21 23:47:43 [notice] 1#1: using the "epoll" event method
+2021/08/21 23:47:43 [notice] 1#1: start worker processes
+2021/08/21 23:47:43 [notice] 1#1: start worker process 64
+2021/08/21 23:47:43 [notice] 1#1: start worker process 65
+2021/08/21 23:47:43 [notice] 61#61: gracefully shutting down
+2021/08/21 23:47:43 [notice] 62#62: gracefully shutting down
+2021/08/21 23:47:43 [notice] 62#62: exiting
+2021/08/21 23:47:43 [notice] 61#61: exiting
+2021/08/21 23:47:43 [notice] 62#62: exit
+2021/08/21 23:47:43 [notice] 61#61: exit
+2021/08/21 23:47:43 [notice] 1#1: signal 17 (SIGCHLD) received from 62
+2021/08/21 23:47:43 [notice] 1#1: worker process 62 exited with code 0
+2021/08/21 23:47:43 [notice] 1#1: worker process 61 exited with code 0
+2021/08/21 23:47:43 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/21 23:47:43 [notice] 1#1: signal 17 (SIGCHLD) received from 61
+2021/08/21 23:47:46 [error] 64#64: *35 open() "/var/www/lali.print/public/1w" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /1w HTTP/1.1", host: "lali.print:8000"
+2021/08/21 23:47:51 [error] 64#64: *36 open() "/var/www/lali.print/public/1w" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /1w HTTP/1.1", host: "lali.print:8000"
+2021/08/21 23:48:09 [error] 64#64: *35 open() "/var/www/lali.print/public/0" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /0 HTTP/1.1", host: "lali.print:8000"
+2021/08/21 23:48:09 [error] 64#64: *36 open() "/var/www/lali.print/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /favicon.ico HTTP/1.1", host: "lali.print:8000", referrer: "http://lali.print:8000/0"
+2021/08/21 23:49:33 [error] 64#64: *41 open() "/var/www/lali.print/public/0" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /0 HTTP/1.1", host: "lali.print:8000"
+2021/08/21 23:50:09 [error] 64#64: *41 open() "/var/www/lali.print/public/0" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /0 HTTP/1.1", host: "lali.print:8000"
+2021/08/21 23:50:12 [notice] 66#66: signal process started
+2021/08/21 23:50:12 [notice] 1#1: signal 1 (SIGHUP) received from 66, reconfiguring
+2021/08/21 23:50:12 [notice] 1#1: reconfiguring
+2021/08/21 23:50:12 [notice] 1#1: using the "epoll" event method
+2021/08/21 23:50:12 [notice] 1#1: start worker processes
+2021/08/21 23:50:12 [notice] 1#1: start worker process 67
+2021/08/21 23:50:12 [notice] 1#1: start worker process 68
+2021/08/21 23:50:12 [notice] 65#65: gracefully shutting down
+2021/08/21 23:50:12 [notice] 65#65: exiting
+2021/08/21 23:50:12 [notice] 64#64: gracefully shutting down
+2021/08/21 23:50:12 [notice] 64#64: exiting
+2021/08/21 23:50:12 [notice] 65#65: exit
+2021/08/21 23:50:12 [notice] 64#64: exit
+2021/08/21 23:50:12 [notice] 1#1: signal 17 (SIGCHLD) received from 65
+2021/08/21 23:50:12 [notice] 1#1: worker process 65 exited with code 0
+2021/08/21 23:50:12 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/21 23:50:12 [notice] 1#1: signal 17 (SIGCHLD) received from 64
+2021/08/21 23:50:12 [notice] 1#1: worker process 64 exited with code 0
+2021/08/21 23:50:12 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/21 23:50:14 [error] 67#67: *42 open() "/var/www/lali.print/public/0" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /0 HTTP/1.1", host: "lali.print:8000"
+2021/08/21 23:50:21 [error] 67#67: *43 open() "/var/www/lali.print/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /favicon.ico HTTP/1.1", host: "lali.print:8000", referrer: "http://lali.print:8000/?"
+2021/08/21 23:50:28 [error] 67#67: *43 open() "/var/www/lali.print/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /favicon.ico HTTP/1.1", host: "lali.print:8000", referrer: "http://lali.print:8000/?8UKJ"
+2021/08/21 23:51:44 [error] 67#67: *48 open() "/var/www/lali.print/public/D" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /D HTTP/1.1", host: "lali.print:8000"
+2021/08/21 23:51:44 [error] 67#67: *50 open() "/var/www/lali.print/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /favicon.ico HTTP/1.1", host: "lali.print:8000", referrer: "http://lali.print:8000/D"
+2021/08/21 23:51:45 [error] 67#67: *48 open() "/var/www/lali.print/public/D" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /D HTTP/1.1", host: "lali.print:8000"
+2021/08/21 23:51:46 [error] 67#67: *48 open() "/var/www/lali.print/public/D" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /D HTTP/1.1", host: "lali.print:8000"
+2021/08/22 16:09:39 [error] 67#67: *65 open() "/var/www/lali.print/public/imeges" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /imeges HTTP/1.1", host: "lali.print:8000"
+2021/08/22 16:09:39 [error] 67#67: *67 open() "/var/www/lali.print/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /favicon.ico HTTP/1.1", host: "lali.print:8000", referrer: "http://lali.print:8000/imeges"
+2021/08/22 16:10:09 [error] 67#67: *65 open() "/var/www/lali.print/public/imeges/maria.png" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /imeges/maria.png HTTP/1.1", host: "lali.print:8000"
+2021/08/22 16:10:09 [error] 67#67: *67 open() "/var/www/lali.print/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /favicon.ico HTTP/1.1", host: "lali.print:8000", referrer: "http://lali.print:8000/imeges/maria.png"
+2021/08/22 16:11:42 [error] 67#67: *69 open() "/var/www/lali.print/public/imeges/maria.png" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /imeges/maria.png HTTP/1.1", host: "lali.print:8000"
+2021/08/22 16:11:51 [error] 67#67: *70 open() "/var/www/lali.print/public/imeges" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /imeges HTTP/1.1", host: "lali.print:8000"
+2021/08/22 16:12:04 [error] 67#67: *70 open() "/var/www/lali.print/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /favicon.ico HTTP/1.1", host: "lali.print:8000", referrer: "http://lali.print:8000/images/maria.png"
+2021/08/22 16:13:07 [error] 67#67: *73 open() "/var/www/lali.print/public/imeges" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /imeges HTTP/1.1", host: "lali.print:8000"
+2021/08/22 16:13:11 [error] 67#67: *72 open() "/var/www/lali.print/public/gkmfdl" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /gkmfdl HTTP/1.1", host: "lali.print:8000"
+2021/08/22 16:13:11 [error] 67#67: *73 open() "/var/www/lali.print/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /favicon.ico HTTP/1.1", host: "lali.print:8000", referrer: "http://lali.print:8000/gkmfdl"
+2021/08/22 16:13:27 [error] 67#67: *73 open() "/var/www/lali.print/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /favicon.ico HTTP/1.1", host: "lali.print:8000", referrer: "http://lali.print:8000/?gkmfdl"
+2021/08/22 16:19:23 [error] 67#67: *78 open() "/var/www/lali.print/public/gkmfdl" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /gkmfdl HTTP/1.1", host: "lali.print:8000"
+2021/08/22 16:19:25 [error] 67#67: *76 open() "/var/www/lali.print/public/gkmfdl" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /gkmfdl HTTP/1.1", host: "lali.print:8000"
+2021/08/22 16:20:45 [notice] 76#76: signal process started
+2021/08/22 16:20:45 [notice] 1#1: signal 1 (SIGHUP) received from 76, reconfiguring
+2021/08/22 16:20:45 [notice] 1#1: reconfiguring
+2021/08/22 16:20:45 [notice] 1#1: using the "epoll" event method
+2021/08/22 16:20:45 [notice] 1#1: start worker processes
+2021/08/22 16:20:45 [notice] 1#1: start worker process 77
+2021/08/22 16:20:45 [notice] 1#1: start worker process 78
+2021/08/22 16:20:45 [notice] 67#67: gracefully shutting down
+2021/08/22 16:20:45 [notice] 68#68: gracefully shutting down
+2021/08/22 16:20:45 [notice] 67#67: exiting
+2021/08/22 16:20:45 [notice] 67#67: exit
+2021/08/22 16:20:45 [notice] 68#68: exiting
+2021/08/22 16:20:45 [notice] 68#68: exit
+2021/08/22 16:20:45 [notice] 1#1: signal 17 (SIGCHLD) received from 67
+2021/08/22 16:20:45 [notice] 1#1: worker process 67 exited with code 0
+2021/08/22 16:20:45 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/22 16:20:45 [notice] 1#1: signal 17 (SIGCHLD) received from 68
+2021/08/22 16:20:45 [notice] 1#1: worker process 68 exited with code 0
+2021/08/22 16:20:45 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/22 16:20:52 [error] 77#77: *79 open() "/var/www/lali.print/public/gkmfdl" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /gkmfdl HTTP/1.1", host: "lali.print:8000"
+2021/08/22 16:20:53 [error] 77#77: *79 open() "/var/www/lali.print/public/gkmfdl" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /gkmfdl HTTP/1.1", host: "lali.print:8000"
+2021/08/22 16:21:34 [notice] 79#79: signal process started
+2021/08/22 16:21:34 [notice] 1#1: signal 1 (SIGHUP) received from 79, reconfiguring
+2021/08/22 16:21:34 [notice] 1#1: reconfiguring
+2021/08/22 16:21:34 [notice] 1#1: using the "epoll" event method
+2021/08/22 16:21:34 [notice] 1#1: start worker processes
+2021/08/22 16:21:34 [notice] 1#1: start worker process 80
+2021/08/22 16:21:34 [notice] 1#1: start worker process 81
+2021/08/22 16:21:34 [notice] 77#77: gracefully shutting down
+2021/08/22 16:21:34 [notice] 78#78: gracefully shutting down
+2021/08/22 16:21:34 [notice] 78#78: exiting
+2021/08/22 16:21:34 [notice] 77#77: exiting
+2021/08/22 16:21:34 [notice] 77#77: exit
+2021/08/22 16:21:34 [notice] 78#78: exit
+2021/08/22 16:21:34 [notice] 1#1: signal 17 (SIGCHLD) received from 77
+2021/08/22 16:21:34 [notice] 1#1: worker process 77 exited with code 0
+2021/08/22 16:21:34 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/22 16:21:34 [notice] 1#1: signal 17 (SIGCHLD) received from 78
+2021/08/22 16:21:34 [notice] 1#1: worker process 78 exited with code 0
+2021/08/22 16:21:34 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/22 16:21:36 [error] 80#80: *80 open() "/var/www/lali.print/public/gkmfdl" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /gkmfdl HTTP/1.1", host: "lali.print:8000"
+2021/08/22 16:21:37 [error] 80#80: *80 open() "/var/www/lali.print/public/gkmfdl" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /gkmfdl HTTP/1.1", host: "lali.print:8000"
+2021/08/22 16:21:38 [error] 80#80: *80 open() "/var/www/lali.print/public/gkmfdl" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /gkmfdl HTTP/1.1", host: "lali.print:8000"
+2021/08/22 16:21:41 [error] 80#80: *80 open() "/var/www/lali.print/public/gkmfdl" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /gkmfdl HTTP/1.1", host: "lali.print:8000"
+2021/08/22 16:22:22 [notice] 82#82: signal process started
+2021/08/22 16:22:22 [notice] 1#1: signal 1 (SIGHUP) received from 82, reconfiguring
+2021/08/22 16:22:22 [notice] 1#1: reconfiguring
+2021/08/22 16:22:22 [notice] 1#1: using the "epoll" event method
+2021/08/22 16:22:22 [notice] 1#1: start worker processes
+2021/08/22 16:22:22 [notice] 1#1: start worker process 83
+2021/08/22 16:22:22 [notice] 1#1: start worker process 84
+2021/08/22 16:22:22 [notice] 80#80: gracefully shutting down
+2021/08/22 16:22:22 [notice] 80#80: exiting
+2021/08/22 16:22:22 [notice] 81#81: gracefully shutting down
+2021/08/22 16:22:22 [notice] 81#81: exiting
+2021/08/22 16:22:22 [notice] 80#80: exit
+2021/08/22 16:22:22 [notice] 81#81: exit
+2021/08/22 16:22:22 [notice] 1#1: signal 17 (SIGCHLD) received from 80
+2021/08/22 16:22:22 [notice] 1#1: worker process 80 exited with code 0
+2021/08/22 16:22:22 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/22 16:22:22 [notice] 1#1: signal 17 (SIGCHLD) received from 81
+2021/08/22 16:22:22 [notice] 1#1: worker process 81 exited with code 0
+2021/08/22 16:22:22 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/22 16:34:11 [emerg] 85#85: pcre_compile() failed: nothing to repeat in "\.php$?$uri" at "?$uri" in /etc/nginx/conf.d/lali-print.conf:10
+2021/08/22 16:34:24 [notice] 86#86: signal process started
+2021/08/22 16:34:24 [notice] 1#1: signal 1 (SIGHUP) received from 86, reconfiguring
+2021/08/22 16:34:24 [notice] 1#1: reconfiguring
+2021/08/22 16:34:24 [notice] 1#1: using the "epoll" event method
+2021/08/22 16:34:24 [notice] 1#1: start worker processes
+2021/08/22 16:34:24 [notice] 1#1: start worker process 87
+2021/08/22 16:34:24 [notice] 1#1: start worker process 88
+2021/08/22 16:34:24 [notice] 83#83: gracefully shutting down
+2021/08/22 16:34:24 [notice] 83#83: exiting
+2021/08/22 16:34:24 [notice] 84#84: gracefully shutting down
+2021/08/22 16:34:24 [notice] 84#84: exiting
+2021/08/22 16:34:24 [notice] 83#83: exit
+2021/08/22 16:34:24 [notice] 84#84: exit
+2021/08/22 16:34:24 [notice] 1#1: signal 17 (SIGCHLD) received from 83
+2021/08/22 16:34:24 [notice] 1#1: worker process 83 exited with code 0
+2021/08/22 16:34:24 [notice] 1#1: worker process 84 exited with code 0
+2021/08/22 16:34:24 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/22 16:34:24 [notice] 1#1: signal 17 (SIGCHLD) received from 84
+2021/08/22 16:34:34 [error] 87#87: *89 open() "/var/www/lali.print/public/h" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /h HTTP/1.1", host: "lali.print:8000"
+2021/08/22 16:34:34 [error] 87#87: *92 open() "/var/www/lali.print/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /favicon.ico HTTP/1.1", host: "lali.print:8000", referrer: "http://lali.print:8000/h"
+2021/08/22 16:34:39 [error] 87#87: *92 open() "/var/www/lali.print/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /favicon.ico HTTP/1.1", host: "lali.print:8000", referrer: "http://lali.print:8000/?h"
+2021/08/22 16:36:53 [notice] 89#89: signal process started
+2021/08/22 16:36:53 [notice] 1#1: signal 1 (SIGHUP) received from 89, reconfiguring
+2021/08/22 16:36:53 [notice] 1#1: reconfiguring
+2021/08/22 16:36:53 [notice] 1#1: using the "epoll" event method
+2021/08/22 16:36:53 [notice] 1#1: start worker processes
+2021/08/22 16:36:53 [notice] 1#1: start worker process 90
+2021/08/22 16:36:53 [notice] 1#1: start worker process 91
+2021/08/22 16:36:53 [notice] 87#87: gracefully shutting down
+2021/08/22 16:36:53 [notice] 88#88: gracefully shutting down
+2021/08/22 16:36:53 [notice] 87#87: exiting
+2021/08/22 16:36:53 [notice] 88#88: exiting
+2021/08/22 16:36:53 [notice] 87#87: exit
+2021/08/22 16:36:53 [notice] 88#88: exit
+2021/08/22 16:36:53 [notice] 1#1: signal 17 (SIGCHLD) received from 87
+2021/08/22 16:36:53 [notice] 1#1: worker process 87 exited with code 0
+2021/08/22 16:36:53 [notice] 1#1: worker process 88 exited with code 0
+2021/08/22 16:36:53 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/22 16:36:53 [notice] 1#1: signal 17 (SIGCHLD) received from 88
+2021/08/22 16:36:58 [error] 90#90: *101 open() "/var/www/lali.print/public/h" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /h HTTP/1.1", host: "lali.print:8000"
+2021/08/22 16:38:39 [error] 90#90: *106 open() "/var/www/lali.print/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /favicon.ico HTTP/1.1", host: "lali.print:8000", referrer: "http://lali.print:8000/?h/khk/;l;k/fftr547"
+2021/08/24 14:44:47 [error] 90#90: *107 open() "/var/www/lali.print/public/h/khk/;l;k/fftr547" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /h/khk/;l;k/fftr547 HTTP/1.1", host: "lali.print:8000"
+2021/08/24 14:44:48 [error] 90#90: *109 open() "/var/www/lali.print/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /favicon.ico HTTP/1.1", host: "lali.print:8000", referrer: "http://lali.print:8000/h/khk/;l;k/fftr547"
+2021/08/24 14:46:29 [error] 90#90: *117 open() "/var/www/lali.print/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/"
+2021/08/24 14:46:50 [notice] 92#92: signal process started
+2021/08/24 14:46:50 [notice] 1#1: signal 1 (SIGHUP) received from 92, reconfiguring
+2021/08/24 14:46:50 [notice] 1#1: reconfiguring
+2021/08/24 14:46:50 [notice] 1#1: using the "epoll" event method
+2021/08/24 14:46:50 [notice] 1#1: start worker processes
+2021/08/24 14:46:50 [notice] 1#1: start worker process 93
+2021/08/24 14:46:50 [notice] 1#1: start worker process 94
+2021/08/24 14:46:50 [notice] 90#90: gracefully shutting down
+2021/08/24 14:46:50 [notice] 91#91: gracefully shutting down
+2021/08/24 14:46:50 [notice] 90#90: exiting
+2021/08/24 14:46:50 [notice] 91#91: exiting
+2021/08/24 14:46:50 [notice] 90#90: exit
+2021/08/24 14:46:50 [notice] 91#91: exit
+2021/08/24 14:46:50 [notice] 1#1: signal 17 (SIGCHLD) received from 90
+2021/08/24 14:46:50 [notice] 1#1: worker process 90 exited with code 0
+2021/08/24 14:46:50 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/24 14:46:50 [notice] 1#1: signal 17 (SIGCHLD) received from 91
+2021/08/24 14:46:50 [notice] 1#1: worker process 91 exited with code 0
+2021/08/24 14:46:50 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/24 14:47:30 [notice] 95#95: signal process started
+2021/08/24 14:47:30 [notice] 1#1: signal 1 (SIGHUP) received from 95, reconfiguring
+2021/08/24 14:47:30 [notice] 1#1: reconfiguring
+2021/08/24 14:47:30 [notice] 1#1: using the "epoll" event method
+2021/08/24 14:47:30 [notice] 1#1: start worker processes
+2021/08/24 14:47:30 [notice] 1#1: start worker process 96
+2021/08/24 14:47:30 [notice] 1#1: start worker process 97
+2021/08/24 14:47:30 [notice] 94#94: gracefully shutting down
+2021/08/24 14:47:30 [notice] 93#93: gracefully shutting down
+2021/08/24 14:47:30 [notice] 94#94: exiting
+2021/08/24 14:47:30 [notice] 93#93: exiting
+2021/08/24 14:47:30 [notice] 93#93: exit
+2021/08/24 14:47:30 [notice] 94#94: exit
+2021/08/24 14:47:30 [notice] 1#1: signal 17 (SIGCHLD) received from 93
+2021/08/24 14:47:30 [notice] 1#1: worker process 93 exited with code 0
+2021/08/24 14:47:30 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/24 14:47:30 [notice] 1#1: signal 17 (SIGCHLD) received from 94
+2021/08/24 14:47:30 [notice] 1#1: worker process 94 exited with code 0
+2021/08/24 14:47:31 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/24 23:19:58 [notice] 98#98: signal process started
+2021/08/24 23:19:58 [notice] 1#1: signal 1 (SIGHUP) received from 98, reconfiguring
+2021/08/24 23:19:58 [notice] 1#1: reconfiguring
+2021/08/24 23:19:58 [notice] 1#1: using the "epoll" event method
+2021/08/24 23:19:58 [notice] 1#1: start worker processes
+2021/08/24 23:19:58 [notice] 1#1: start worker process 99
+2021/08/24 23:19:58 [notice] 1#1: start worker process 100
+2021/08/24 23:19:58 [notice] 96#96: gracefully shutting down
+2021/08/24 23:19:58 [notice] 97#97: gracefully shutting down
+2021/08/24 23:19:58 [notice] 96#96: exiting
+2021/08/24 23:19:58 [notice] 96#96: exit
+2021/08/24 23:19:58 [notice] 97#97: exiting
+2021/08/24 23:19:58 [notice] 97#97: exit
+2021/08/24 23:19:58 [notice] 1#1: signal 17 (SIGCHLD) received from 97
+2021/08/24 23:19:58 [notice] 1#1: worker process 97 exited with code 0
+2021/08/24 23:19:58 [notice] 1#1: worker process 96 exited with code 0
+2021/08/24 23:19:58 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/24 23:19:58 [notice] 1#1: signal 17 (SIGCHLD) received from 96
+2021/08/24 23:21:04 [notice] 101#101: signal process started
+2021/08/24 23:21:04 [notice] 1#1: signal 1 (SIGHUP) received from 101, reconfiguring
+2021/08/24 23:21:04 [notice] 1#1: reconfiguring
+2021/08/24 23:21:04 [notice] 1#1: using the "epoll" event method
+2021/08/24 23:21:04 [notice] 1#1: start worker processes
+2021/08/24 23:21:04 [notice] 1#1: start worker process 102
+2021/08/24 23:21:04 [notice] 1#1: start worker process 103
+2021/08/24 23:21:05 [notice] 99#99: gracefully shutting down
+2021/08/24 23:21:05 [notice] 99#99: exiting
+2021/08/24 23:21:05 [notice] 100#100: gracefully shutting down
+2021/08/24 23:21:05 [notice] 100#100: exiting
+2021/08/24 23:21:05 [notice] 99#99: exit
+2021/08/24 23:21:05 [notice] 100#100: exit
+2021/08/24 23:21:05 [notice] 1#1: signal 17 (SIGCHLD) received from 99
+2021/08/24 23:21:05 [notice] 1#1: worker process 99 exited with code 0
+2021/08/24 23:21:05 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/24 23:21:05 [notice] 1#1: signal 17 (SIGCHLD) received from 100
+2021/08/24 23:21:05 [notice] 1#1: worker process 100 exited with code 0
+2021/08/24 23:21:05 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/24 23:21:13 [notice] 104#104: signal process started
+2021/08/24 23:21:13 [notice] 1#1: signal 1 (SIGHUP) received from 104, reconfiguring
+2021/08/24 23:21:13 [notice] 1#1: reconfiguring
+2021/08/24 23:21:13 [notice] 1#1: using the "epoll" event method
+2021/08/24 23:21:13 [notice] 1#1: start worker processes
+2021/08/24 23:21:13 [notice] 1#1: start worker process 105
+2021/08/24 23:21:13 [notice] 1#1: start worker process 106
+2021/08/24 23:21:13 [notice] 102#102: gracefully shutting down
+2021/08/24 23:21:13 [notice] 102#102: exiting
+2021/08/24 23:21:13 [notice] 103#103: gracefully shutting down
+2021/08/24 23:21:13 [notice] 103#103: exiting
+2021/08/24 23:21:13 [notice] 102#102: exit
+2021/08/24 23:21:13 [notice] 103#103: exit
+2021/08/24 23:21:13 [notice] 1#1: signal 17 (SIGCHLD) received from 102
+2021/08/24 23:21:13 [notice] 1#1: worker process 102 exited with code 0
+2021/08/24 23:21:13 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/24 23:21:13 [notice] 1#1: signal 17 (SIGCHLD) received from 103
+2021/08/24 23:21:13 [notice] 1#1: worker process 103 exited with code 0
+2021/08/24 23:21:13 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/24 23:22:04 [error] 106#106: *129 open() "/var/www/lali.print/public/kgk" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /kgk HTTP/1.1", host: "localhost:8000"
+2021/08/24 23:22:05 [error] 106#106: *130 open() "/var/www/lali.print/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/kgk"
+2021/08/24 23:22:08 [error] 106#106: *129 open() "/var/www/lali.print/public/kgk" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /kgk HTTP/1.1", host: "localhost:8000"
+2021/08/24 23:22:11 [error] 106#106: *130 open() "/var/www/lali.print/public/kgk" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /kgk HTTP/1.1", host: "localhost:8000"
+2021/08/24 23:22:27 [error] 106#106: *130 open() "/var/www/lali.print/public/kgk" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /kgk HTTP/1.1", host: "localhost:8000"
+2021/08/24 23:22:35 [error] 106#106: *130 open() "/var/www/lali.print/public/kgk" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /kgk HTTP/1.1", host: "localhost:8000"
+2021/08/24 23:22:53 [error] 106#106: *130 open() "/var/www/lali.print/public/kgk" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /kgk HTTP/1.1", host: "localhost:8000"
+2021/08/24 23:46:08 [error] 106#106: *131 open() "/var/www/lali.print/public/kgk" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /kgk HTTP/1.1", host: "localhost:8000"
+2021/08/25 00:10:40 [notice] 107#107: signal process started
+2021/08/25 00:10:40 [notice] 1#1: signal 1 (SIGHUP) received from 107, reconfiguring
+2021/08/25 00:10:40 [notice] 1#1: reconfiguring
+2021/08/25 00:10:40 [notice] 1#1: using the "epoll" event method
+2021/08/25 00:10:40 [notice] 1#1: start worker processes
+2021/08/25 00:10:40 [notice] 1#1: start worker process 108
+2021/08/25 00:10:40 [notice] 1#1: start worker process 109
+2021/08/25 00:10:40 [notice] 105#105: gracefully shutting down
+2021/08/25 00:10:40 [notice] 106#106: gracefully shutting down
+2021/08/25 00:10:40 [notice] 105#105: exiting
+2021/08/25 00:10:40 [notice] 105#105: exit
+2021/08/25 00:10:40 [notice] 106#106: exiting
+2021/08/25 00:10:40 [notice] 106#106: exit
+2021/08/25 00:10:41 [notice] 1#1: signal 17 (SIGCHLD) received from 105
+2021/08/25 00:10:41 [notice] 1#1: worker process 105 exited with code 0
+2021/08/25 00:10:41 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/25 00:10:41 [notice] 1#1: signal 17 (SIGCHLD) received from 106
+2021/08/25 00:10:41 [notice] 1#1: worker process 106 exited with code 0
+2021/08/25 00:10:41 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/25 08:43:02 [notice] 110#110: signal process started
+2021/08/25 08:43:03 [notice] 1#1: signal 1 (SIGHUP) received from 110, reconfiguring
+2021/08/25 08:43:03 [notice] 1#1: reconfiguring
+2021/08/25 08:43:03 [notice] 1#1: using the "epoll" event method
+2021/08/25 08:43:03 [notice] 1#1: start worker processes
+2021/08/25 08:43:03 [notice] 1#1: start worker process 111
+2021/08/25 08:43:03 [notice] 1#1: start worker process 112
+2021/08/25 08:43:03 [notice] 109#109: gracefully shutting down
+2021/08/25 08:43:03 [notice] 108#108: gracefully shutting down
+2021/08/25 08:43:03 [notice] 109#109: exiting
+2021/08/25 08:43:03 [notice] 109#109: exit
+2021/08/25 08:43:03 [notice] 108#108: exiting
+2021/08/25 08:43:03 [notice] 108#108: exit
+2021/08/25 08:43:03 [notice] 1#1: signal 17 (SIGCHLD) received from 109
+2021/08/25 08:43:03 [notice] 1#1: worker process 109 exited with code 0
+2021/08/25 08:43:03 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/25 08:43:03 [notice] 1#1: signal 17 (SIGCHLD) received from 108
+2021/08/25 08:43:03 [notice] 1#1: worker process 108 exited with code 0
+2021/08/25 08:43:03 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/25 08:43:51 [notice] 113#113: signal process started
+2021/08/25 08:43:51 [notice] 1#1: signal 1 (SIGHUP) received from 113, reconfiguring
+2021/08/25 08:43:51 [notice] 1#1: reconfiguring
+2021/08/25 08:43:51 [notice] 1#1: using the "epoll" event method
+2021/08/25 08:43:51 [notice] 1#1: start worker processes
+2021/08/25 08:43:51 [notice] 1#1: start worker process 114
+2021/08/25 08:43:51 [notice] 1#1: start worker process 115
+2021/08/25 08:43:51 [notice] 111#111: gracefully shutting down
+2021/08/25 08:43:51 [notice] 111#111: exiting
+2021/08/25 08:43:51 [notice] 112#112: gracefully shutting down
+2021/08/25 08:43:51 [notice] 112#112: exiting
+2021/08/25 08:43:51 [notice] 111#111: exit
+2021/08/25 08:43:51 [notice] 112#112: exit
+2021/08/25 08:43:51 [notice] 1#1: signal 17 (SIGCHLD) received from 112
+2021/08/25 08:43:51 [notice] 1#1: worker process 112 exited with code 0
+2021/08/25 08:43:51 [notice] 1#1: worker process 111 exited with code 0
+2021/08/25 08:43:51 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/25 08:43:51 [notice] 1#1: signal 17 (SIGCHLD) received from 111
+2021/08/25 08:45:01 [emerg] 116#116: directive "location" has no opening "{" in /etc/nginx/conf.d/lali-print.conf:11
+2021/08/25 08:45:18 [emerg] 117#117: directive "location" has no opening "{" in /etc/nginx/conf.d/lali-print.conf:11
+2021/08/25 08:45:42 [notice] 118#118: signal process started
+2021/08/25 08:45:42 [notice] 1#1: signal 1 (SIGHUP) received from 118, reconfiguring
+2021/08/25 08:45:42 [notice] 1#1: reconfiguring
+2021/08/25 08:45:42 [notice] 1#1: using the "epoll" event method
+2021/08/25 08:45:42 [notice] 1#1: start worker processes
+2021/08/25 08:45:42 [notice] 1#1: start worker process 119
+2021/08/25 08:45:42 [notice] 1#1: start worker process 120
+2021/08/25 08:45:42 [notice] 115#115: gracefully shutting down
+2021/08/25 08:45:42 [notice] 115#115: exiting
+2021/08/25 08:45:42 [notice] 114#114: gracefully shutting down
+2021/08/25 08:45:42 [notice] 114#114: exiting
+2021/08/25 08:45:42 [notice] 115#115: exit
+2021/08/25 08:45:42 [notice] 114#114: exit
+2021/08/25 08:45:42 [notice] 1#1: signal 17 (SIGCHLD) received from 115
+2021/08/25 08:45:42 [notice] 1#1: worker process 115 exited with code 0
+2021/08/25 08:45:42 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/25 08:45:42 [notice] 1#1: signal 17 (SIGCHLD) received from 114
+2021/08/25 08:45:42 [notice] 1#1: worker process 114 exited with code 0
+2021/08/25 08:45:42 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/25 08:46:03 [notice] 121#121: signal process started
+2021/08/25 08:46:03 [notice] 1#1: signal 1 (SIGHUP) received from 121, reconfiguring
+2021/08/25 08:46:03 [notice] 1#1: reconfiguring
+2021/08/25 08:46:03 [notice] 1#1: using the "epoll" event method
+2021/08/25 08:46:03 [notice] 1#1: start worker processes
+2021/08/25 08:46:03 [notice] 1#1: start worker process 122
+2021/08/25 08:46:03 [notice] 1#1: start worker process 123
+2021/08/25 08:46:03 [notice] 120#120: gracefully shutting down
+2021/08/25 08:46:03 [notice] 119#119: gracefully shutting down
+2021/08/25 08:46:03 [notice] 120#120: exiting
+2021/08/25 08:46:03 [notice] 119#119: exiting
+2021/08/25 08:46:03 [notice] 119#119: exit
+2021/08/25 08:46:03 [notice] 120#120: exit
+2021/08/25 08:46:03 [notice] 1#1: signal 17 (SIGCHLD) received from 119
+2021/08/25 08:46:03 [notice] 1#1: worker process 119 exited with code 0
+2021/08/25 08:46:03 [notice] 1#1: worker process 120 exited with code 0
+2021/08/25 08:46:03 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/25 08:46:03 [notice] 1#1: signal 17 (SIGCHLD) received from 120
+2021/08/25 08:47:06 [error] 122#122: *146 open() "/var/www/lali.print/public/knkl" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /knkl HTTP/1.1", host: "lali.print:8000"
+2021/08/25 08:47:06 [error] 122#122: *147 open() "/var/www/lali.print/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /favicon.ico HTTP/1.1", host: "lali.print:8000", referrer: "http://lali.print:8000/knkl"
+2021/08/25 08:47:08 [error] 122#122: *146 open() "/var/www/lali.print/public/knkl" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /knkl HTTP/1.1", host: "lali.print:8000"
+2021/08/25 08:47:12 [error] 122#122: *147 open() "/var/www/lali.print/public/knkl" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /knkl HTTP/1.1", host: "lali.print:8000"
+2021/08/25 08:47:20 [error] 122#122: *147 open() "/var/www/lali.print/public/knkl" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /knkl HTTP/1.1", host: "lali.print:8000"
+2021/08/25 08:47:40 [notice] 124#124: signal process started
+2021/08/25 08:47:40 [notice] 1#1: signal 1 (SIGHUP) received from 124, reconfiguring
+2021/08/25 08:47:40 [notice] 1#1: reconfiguring
+2021/08/25 08:47:40 [notice] 1#1: using the "epoll" event method
+2021/08/25 08:47:40 [notice] 1#1: start worker processes
+2021/08/25 08:47:40 [notice] 1#1: start worker process 125
+2021/08/25 08:47:40 [notice] 1#1: start worker process 126
+2021/08/25 08:47:40 [notice] 122#122: gracefully shutting down
+2021/08/25 08:47:40 [notice] 123#123: gracefully shutting down
+2021/08/25 08:47:40 [notice] 123#123: exiting
+2021/08/25 08:47:40 [notice] 122#122: exiting
+2021/08/25 08:47:40 [notice] 123#123: exit
+2021/08/25 08:47:40 [notice] 122#122: exit
+2021/08/25 08:47:40 [notice] 1#1: signal 17 (SIGCHLD) received from 123
+2021/08/25 08:47:40 [notice] 1#1: worker process 123 exited with code 0
+2021/08/25 08:47:40 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/25 08:47:40 [notice] 1#1: signal 17 (SIGCHLD) received from 122
+2021/08/25 08:47:40 [notice] 1#1: worker process 122 exited with code 0
+2021/08/25 08:47:40 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/25 08:47:50 [error] 125#125: *149 open() "/var/www/lali.print/public/knkl" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /knkl HTTP/1.1", host: "lali.print:8000"
+2021/08/25 08:47:56 [error] 125#125: *149 open() "/var/www/lali.print/public/knkl" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /knkl HTTP/1.1", host: "lali.print:8000"
+2021/08/25 08:49:08 [emerg] 127#127: invalid number of arguments in "location" directive in /etc/nginx/conf.d/lali-print.conf:10
+2021/08/25 08:49:28 [emerg] 128#128: invalid number of arguments in "location" directive in /etc/nginx/conf.d/lali-print.conf:10
+2021/08/25 08:49:38 [emerg] 129#129: invalid number of arguments in "location" directive in /etc/nginx/conf.d/lali-print.conf:10
+2021/08/25 08:50:01 [emerg] 130#130: pcre_compile() failed: nothing to repeat in "*\.php/*?$" at "*\.php/*?$" in /etc/nginx/conf.d/lali-print.conf:10
+2021/08/25 08:50:20 [emerg] 131#131: pcre_compile() failed: nothing to repeat in "*\.php/*?$" at "*\.php/*?$" in /etc/nginx/conf.d/lali-print.conf:10
+2021/08/25 08:50:32 [notice] 132#132: signal process started
+2021/08/25 08:50:32 [notice] 1#1: signal 1 (SIGHUP) received from 132, reconfiguring
+2021/08/25 08:50:32 [notice] 1#1: reconfiguring
+2021/08/25 08:50:32 [notice] 1#1: using the "epoll" event method
+2021/08/25 08:50:32 [notice] 1#1: start worker processes
+2021/08/25 08:50:32 [notice] 1#1: start worker process 133
+2021/08/25 08:50:32 [notice] 1#1: start worker process 134
+2021/08/25 08:50:32 [notice] 126#126: gracefully shutting down
+2021/08/25 08:50:32 [notice] 125#125: gracefully shutting down
+2021/08/25 08:50:32 [notice] 126#126: exiting
+2021/08/25 08:50:32 [notice] 125#125: exiting
+2021/08/25 08:50:32 [notice] 126#126: exit
+2021/08/25 08:50:32 [notice] 125#125: exit
+2021/08/25 08:50:32 [notice] 1#1: signal 17 (SIGCHLD) received from 126
+2021/08/25 08:50:32 [notice] 1#1: worker process 126 exited with code 0
+2021/08/25 08:50:32 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/25 08:50:32 [notice] 1#1: signal 17 (SIGCHLD) received from 125
+2021/08/25 08:50:32 [notice] 1#1: worker process 125 exited with code 0
+2021/08/25 08:50:32 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/25 08:50:51 [error] 133#133: *152 open() "/var/www/lali.print/public/knkl" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /knkl HTTP/1.1", host: "lali.print:8000"
+2021/08/25 08:50:52 [error] 133#133: *150 open() "/var/www/lali.print/public/kmk" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /kmk HTTP/1.1", host: "lali.print:8000"
+2021/08/25 08:50:52 [error] 133#133: *154 open() "/var/www/lali.print/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /favicon.ico HTTP/1.1", host: "lali.print:8000", referrer: "http://lali.print:8000/kmk"
+2021/08/25 08:51:06 [error] 133#133: *150 open() "/var/www/lali.print/public/kmk" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /kmk HTTP/1.1", host: "lali.print:8000"
+2021/08/25 08:51:22 [error] 133#133: *150 open() "/var/www/lali.print/public/kmk" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /kmk HTTP/1.1", host: "lali.print:8000"
+2021/08/25 08:51:26 [error] 133#133: *154 open() "/var/www/lali.print/public/kmk" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /kmk HTTP/1.1", host: "lali.print:8000"
+2021/08/25 08:52:42 [error] 133#133: *158 open() "/var/www/lali.print/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /favicon.ico HTTP/1.1", host: "lali.print:8000"
+2021/08/25 08:52:42 [error] 133#133: *158 open() "/var/www/lali.print/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /favicon.ico HTTP/1.1", host: "lali.print:8000"
+2021/08/25 08:52:42 [error] 133#133: *158 open() "/var/www/lali.print/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /favicon.ico HTTP/1.1", host: "lali.print:8000"
+2021/08/25 08:52:42 [error] 133#133: *158 open() "/var/www/lali.print/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /favicon.ico HTTP/1.1", host: "lali.print:8000"
+2021/08/25 08:53:10 [error] 133#133: *160 open() "/var/www/lali.print/public/kmk" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /kmk HTTP/1.1", host: "lali.print:8000"
+2021/08/25 08:54:30 [error] 133#133: *161 open() "/var/www/lali.print/public/kmk" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /kmk HTTP/1.1", host: "lali.print:8000"
+2021/08/25 08:54:47 [error] 133#133: *161 open() "/var/www/lali.print/public/kmk" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /kmk HTTP/1.1", host: "lali.print:8000"
+2021/08/25 08:55:04 [error] 133#133: *161 open() "/var/www/lali.print/public/kmk" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /kmk HTTP/1.1", host: "lali.print:8000"
+2021/08/25 08:55:08 [notice] 135#135: signal process started
+2021/08/25 08:55:08 [notice] 1#1: signal 1 (SIGHUP) received from 135, reconfiguring
+2021/08/25 08:55:08 [notice] 1#1: reconfiguring
+2021/08/25 08:55:08 [notice] 1#1: using the "epoll" event method
+2021/08/25 08:55:08 [notice] 1#1: start worker processes
+2021/08/25 08:55:08 [notice] 1#1: start worker process 136
+2021/08/25 08:55:08 [notice] 1#1: start worker process 137
+2021/08/25 08:55:08 [notice] 133#133: gracefully shutting down
+2021/08/25 08:55:08 [notice] 134#134: gracefully shutting down
+2021/08/25 08:55:08 [notice] 134#134: exiting
+2021/08/25 08:55:08 [notice] 133#133: exiting
+2021/08/25 08:55:08 [notice] 134#134: exit
+2021/08/25 08:55:08 [notice] 133#133: exit
+2021/08/25 08:55:08 [notice] 1#1: signal 17 (SIGCHLD) received from 134
+2021/08/25 08:55:08 [notice] 1#1: worker process 134 exited with code 0
+2021/08/25 08:55:08 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/25 08:55:08 [notice] 1#1: signal 17 (SIGCHLD) received from 133
+2021/08/25 08:55:08 [notice] 1#1: worker process 133 exited with code 0
+2021/08/25 08:55:08 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/25 08:55:11 [error] 136#136: *162 open() "/var/www/lali.print/public/kmk" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /kmk HTTP/1.1", host: "lali.print:8000"
+2021/08/25 08:55:12 [error] 136#136: *162 open() "/var/www/lali.print/public/kmk" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /kmk HTTP/1.1", host: "lali.print:8000"
+2021/08/25 08:55:15 [error] 136#136: *163 open() "/var/www/lali.print/public/kmk" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /kmk HTTP/1.1", host: "lali.print:8000"
+2021/08/25 08:55:26 [error] 136#136: *162 open() "/var/www/lali.print/public/sda" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /sda HTTP/1.1", host: "lali.print:8000"
+2021/08/25 08:55:26 [error] 136#136: *163 open() "/var/www/lali.print/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /favicon.ico HTTP/1.1", host: "lali.print:8000", referrer: "http://lali.print:8000/sda"
+2021/08/25 08:57:50 [notice] 138#138: signal process started
+2021/08/25 08:57:50 [notice] 1#1: signal 1 (SIGHUP) received from 138, reconfiguring
+2021/08/25 08:57:50 [notice] 1#1: reconfiguring
+2021/08/25 08:57:50 [notice] 1#1: using the "epoll" event method
+2021/08/25 08:57:50 [notice] 1#1: start worker processes
+2021/08/25 08:57:50 [notice] 1#1: start worker process 139
+2021/08/25 08:57:50 [notice] 1#1: start worker process 140
+2021/08/25 08:57:50 [notice] 137#137: gracefully shutting down
+2021/08/25 08:57:50 [notice] 136#136: gracefully shutting down
+2021/08/25 08:57:50 [notice] 137#137: exiting
+2021/08/25 08:57:50 [notice] 136#136: exiting
+2021/08/25 08:57:50 [notice] 137#137: exit
+2021/08/25 08:57:50 [notice] 136#136: exit
+2021/08/25 08:57:50 [notice] 1#1: signal 17 (SIGCHLD) received from 137
+2021/08/25 08:57:50 [notice] 1#1: worker process 137 exited with code 0
+2021/08/25 08:57:50 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/25 08:57:50 [notice] 1#1: signal 17 (SIGCHLD) received from 136
+2021/08/25 08:57:50 [notice] 1#1: worker process 136 exited with code 0
+2021/08/25 08:57:50 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/25 08:57:52 [error] 139#139: *165 open() "/var/www/lali.print/public/sda" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /sda HTTP/1.1", host: "lali.print:8000"
+2021/08/25 08:57:55 [error] 139#139: *166 open() "/var/www/lali.print/public/sda" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /sda HTTP/1.1", host: "lali.print:8000"
+2021/08/25 08:58:01 [error] 139#139: *166 open() "/var/www/lali.print/public/sda" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /sda HTTP/1.1", host: "lali.print:8000"
+2021/08/25 08:58:25 [notice] 141#141: signal process started
+2021/08/25 08:58:25 [notice] 1#1: signal 1 (SIGHUP) received from 141, reconfiguring
+2021/08/25 08:58:25 [notice] 1#1: reconfiguring
+2021/08/25 08:58:25 [notice] 1#1: using the "epoll" event method
+2021/08/25 08:58:25 [notice] 1#1: start worker processes
+2021/08/25 08:58:25 [notice] 1#1: start worker process 142
+2021/08/25 08:58:25 [notice] 1#1: start worker process 143
+2021/08/25 08:58:25 [notice] 139#139: gracefully shutting down
+2021/08/25 08:58:25 [notice] 140#140: gracefully shutting down
+2021/08/25 08:58:25 [notice] 139#139: exiting
+2021/08/25 08:58:25 [notice] 140#140: exiting
+2021/08/25 08:58:25 [notice] 139#139: exit
+2021/08/25 08:58:25 [notice] 140#140: exit
+2021/08/25 08:58:26 [notice] 1#1: signal 17 (SIGCHLD) received from 139
+2021/08/25 08:58:26 [notice] 1#1: worker process 139 exited with code 0
+2021/08/25 08:58:26 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/25 08:58:26 [notice] 1#1: signal 17 (SIGCHLD) received from 140
+2021/08/25 08:58:26 [notice] 1#1: worker process 140 exited with code 0
+2021/08/25 08:58:26 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/25 08:58:53 [notice] 144#144: signal process started
+2021/08/25 08:58:53 [notice] 1#1: signal 1 (SIGHUP) received from 144, reconfiguring
+2021/08/25 08:58:53 [notice] 1#1: reconfiguring
+2021/08/25 08:58:53 [notice] 1#1: using the "epoll" event method
+2021/08/25 08:58:53 [notice] 1#1: start worker processes
+2021/08/25 08:58:53 [notice] 1#1: start worker process 145
+2021/08/25 08:58:53 [notice] 1#1: start worker process 146
+2021/08/25 08:58:54 [notice] 143#143: gracefully shutting down
+2021/08/25 08:58:54 [notice] 143#143: exiting
+2021/08/25 08:58:54 [notice] 142#142: gracefully shutting down
+2021/08/25 08:58:54 [notice] 142#142: exiting
+2021/08/25 08:58:54 [notice] 143#143: exit
+2021/08/25 08:58:54 [notice] 142#142: exit
+2021/08/25 08:58:54 [notice] 1#1: signal 17 (SIGCHLD) received from 143
+2021/08/25 08:58:54 [notice] 1#1: worker process 143 exited with code 0
+2021/08/25 08:58:54 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/25 08:58:54 [notice] 1#1: signal 17 (SIGCHLD) received from 142
+2021/08/25 08:58:54 [notice] 1#1: worker process 142 exited with code 0
+2021/08/25 08:58:54 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/25 08:59:09 [notice] 147#147: signal process started
+2021/08/25 08:59:09 [notice] 1#1: signal 1 (SIGHUP) received from 147, reconfiguring
+2021/08/25 08:59:09 [notice] 1#1: reconfiguring
+2021/08/25 08:59:09 [notice] 1#1: using the "epoll" event method
+2021/08/25 08:59:09 [notice] 1#1: start worker processes
+2021/08/25 08:59:09 [notice] 1#1: start worker process 148
+2021/08/25 08:59:09 [notice] 1#1: start worker process 149
+2021/08/25 08:59:09 [notice] 146#146: gracefully shutting down
+2021/08/25 08:59:09 [notice] 145#145: gracefully shutting down
+2021/08/25 08:59:09 [notice] 145#145: exiting
+2021/08/25 08:59:09 [notice] 146#146: exiting
+2021/08/25 08:59:09 [notice] 146#146: exit
+2021/08/25 08:59:09 [notice] 145#145: exit
+2021/08/25 08:59:09 [notice] 1#1: signal 17 (SIGCHLD) received from 146
+2021/08/25 08:59:09 [notice] 1#1: worker process 146 exited with code 0
+2021/08/25 08:59:09 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/25 08:59:09 [notice] 1#1: signal 17 (SIGCHLD) received from 145
+2021/08/25 08:59:09 [notice] 1#1: worker process 145 exited with code 0
+2021/08/25 08:59:09 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/25 09:00:37 [notice] 150#150: signal process started
+2021/08/25 09:00:37 [notice] 1#1: signal 1 (SIGHUP) received from 150, reconfiguring
+2021/08/25 09:00:37 [notice] 1#1: reconfiguring
+2021/08/25 09:00:37 [notice] 1#1: using the "epoll" event method
+2021/08/25 09:00:37 [notice] 1#1: start worker processes
+2021/08/25 09:00:37 [notice] 1#1: start worker process 151
+2021/08/25 09:00:37 [notice] 1#1: start worker process 152
+2021/08/25 09:00:37 [notice] 148#148: gracefully shutting down
+2021/08/25 09:00:37 [notice] 149#149: gracefully shutting down
+2021/08/25 09:00:37 [notice] 149#149: exiting
+2021/08/25 09:00:37 [notice] 148#148: exiting
+2021/08/25 09:00:37 [notice] 148#148: exit
+2021/08/25 09:00:37 [notice] 149#149: exit
+2021/08/25 09:00:37 [notice] 1#1: signal 17 (SIGCHLD) received from 148
+2021/08/25 09:00:37 [notice] 1#1: worker process 148 exited with code 0
+2021/08/25 09:00:37 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/25 09:00:37 [notice] 1#1: signal 17 (SIGCHLD) received from 149
+2021/08/25 09:00:37 [notice] 1#1: worker process 149 exited with code 0
+2021/08/25 09:00:37 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/25 09:00:39 [error] 151#151: *189 open() "/var/www/lali.print/public&asd=5" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /FREY/DAniil/Vladimirovich?asd=5 HTTP/1.1", host: "lali.print:8000"
+2021/08/25 09:00:44 [notice] 153#153: signal process started
+2021/08/25 09:00:44 [notice] 1#1: signal 1 (SIGHUP) received from 153, reconfiguring
+2021/08/25 09:00:44 [notice] 1#1: reconfiguring
+2021/08/25 09:00:44 [notice] 1#1: using the "epoll" event method
+2021/08/25 09:00:44 [notice] 1#1: start worker processes
+2021/08/25 09:00:44 [notice] 1#1: start worker process 154
+2021/08/25 09:00:44 [notice] 1#1: start worker process 155
+2021/08/25 09:00:44 [notice] 151#151: gracefully shutting down
+2021/08/25 09:00:44 [notice] 152#152: gracefully shutting down
+2021/08/25 09:00:44 [notice] 152#152: exiting
+2021/08/25 09:00:44 [notice] 151#151: exiting
+2021/08/25 09:00:44 [notice] 152#152: exit
+2021/08/25 09:00:44 [notice] 151#151: exit
+2021/08/25 09:00:44 [notice] 1#1: signal 17 (SIGCHLD) received from 152
+2021/08/25 09:00:44 [notice] 1#1: worker process 152 exited with code 0
+2021/08/25 09:00:44 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/25 09:00:44 [notice] 1#1: signal 17 (SIGCHLD) received from 151
+2021/08/25 09:00:44 [notice] 1#1: worker process 151 exited with code 0
+2021/08/25 09:00:44 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/25 09:00:46 [error] 154#154: *190 open() "/var/www/lali.print/public&asd=5" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /FREY/DAniil/Vladimirovich?asd=5 HTTP/1.1", host: "lali.print:8000"
+2021/08/25 09:00:47 [error] 154#154: *190 open() "/var/www/lali.print/public&asd=5" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /FREY/DAniil/Vladimirovich?asd=5 HTTP/1.1", host: "lali.print:8000"
+2021/08/25 09:01:14 [notice] 156#156: signal process started
+2021/08/25 09:01:14 [notice] 1#1: signal 1 (SIGHUP) received from 156, reconfiguring
+2021/08/25 09:01:14 [notice] 1#1: reconfiguring
+2021/08/25 09:01:14 [notice] 1#1: using the "epoll" event method
+2021/08/25 09:01:14 [notice] 1#1: start worker processes
+2021/08/25 09:01:14 [notice] 1#1: start worker process 157
+2021/08/25 09:01:14 [notice] 1#1: start worker process 158
+2021/08/25 09:01:15 [notice] 154#154: gracefully shutting down
+2021/08/25 09:01:15 [notice] 155#155: gracefully shutting down
+2021/08/25 09:01:15 [notice] 155#155: exiting
+2021/08/25 09:01:15 [notice] 154#154: exiting
+2021/08/25 09:01:15 [notice] 155#155: exit
+2021/08/25 09:01:15 [notice] 154#154: exit
+2021/08/25 09:01:15 [notice] 1#1: signal 17 (SIGCHLD) received from 155
+2021/08/25 09:01:15 [notice] 1#1: worker process 155 exited with code 0
+2021/08/25 09:01:15 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/25 09:01:15 [notice] 1#1: signal 17 (SIGCHLD) received from 154
+2021/08/25 09:01:15 [notice] 1#1: worker process 154 exited with code 0
+2021/08/25 09:01:15 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/25 09:01:16 [error] 157#157: *191 open() "/var/www/lali.print/public&asd=5" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /FREY/DAniil/Vladimirovich?asd=5 HTTP/1.1", host: "lali.print:8000"
+2021/08/25 09:01:17 [error] 157#157: *191 open() "/var/www/lali.print/public&asd=5" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /FREY/DAniil/Vladimirovich?asd=5 HTTP/1.1", host: "lali.print:8000"
+2021/08/25 09:01:19 [error] 157#157: *191 open() "/var/www/lali.print/public&asd=5" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /FREY/DAniil/Vladimirovich?asd=5 HTTP/1.1", host: "lali.print:8000"
+2021/08/25 09:01:29 [error] 157#157: *191 open() "/var/www/lali.print/public&asd=5" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /FREY/DAniil/Vladimirovich?asd=5 HTTP/1.1", host: "lali.print:8000"
+2021/08/25 09:01:32 [notice] 159#159: signal process started
+2021/08/25 09:01:32 [notice] 1#1: signal 1 (SIGHUP) received from 159, reconfiguring
+2021/08/25 09:01:32 [notice] 1#1: reconfiguring
+2021/08/25 09:01:32 [notice] 1#1: using the "epoll" event method
+2021/08/25 09:01:32 [notice] 1#1: start worker processes
+2021/08/25 09:01:32 [notice] 1#1: start worker process 160
+2021/08/25 09:01:32 [notice] 1#1: start worker process 161
+2021/08/25 09:01:32 [notice] 157#157: gracefully shutting down
+2021/08/25 09:01:32 [notice] 158#158: gracefully shutting down
+2021/08/25 09:01:32 [notice] 158#158: exiting
+2021/08/25 09:01:32 [notice] 157#157: exiting
+2021/08/25 09:01:32 [notice] 157#157: exit
+2021/08/25 09:01:32 [notice] 158#158: exit
+2021/08/25 09:01:32 [notice] 1#1: signal 17 (SIGCHLD) received from 158
+2021/08/25 09:01:32 [notice] 1#1: worker process 158 exited with code 0
+2021/08/25 09:01:32 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/25 09:01:32 [notice] 1#1: signal 17 (SIGCHLD) received from 157
+2021/08/25 09:01:32 [notice] 1#1: worker process 157 exited with code 0
+2021/08/25 09:01:32 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/25 09:04:26 [notice] 162#162: signal process started
+2021/08/25 09:04:26 [notice] 1#1: signal 1 (SIGHUP) received from 162, reconfiguring
+2021/08/25 09:04:26 [notice] 1#1: reconfiguring
+2021/08/25 09:04:26 [notice] 1#1: using the "epoll" event method
+2021/08/25 09:04:26 [notice] 1#1: start worker processes
+2021/08/25 09:04:26 [notice] 1#1: start worker process 163
+2021/08/25 09:04:26 [notice] 1#1: start worker process 164
+2021/08/25 09:04:26 [notice] 160#160: gracefully shutting down
+2021/08/25 09:04:26 [notice] 160#160: exiting
+2021/08/25 09:04:26 [notice] 161#161: gracefully shutting down
+2021/08/25 09:04:26 [notice] 161#161: exiting
+2021/08/25 09:04:26 [notice] 160#160: exit
+2021/08/25 09:04:26 [notice] 161#161: exit
+2021/08/25 09:04:26 [notice] 1#1: signal 17 (SIGCHLD) received from 160
+2021/08/25 09:04:26 [notice] 1#1: worker process 160 exited with code 0
+2021/08/25 09:04:26 [notice] 1#1: worker process 161 exited with code 0
+2021/08/25 09:04:26 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/25 09:04:26 [notice] 1#1: signal 17 (SIGCHLD) received from 161
+2021/08/25 15:33:15 [notice] 165#165: signal process started
+2021/08/25 15:33:15 [notice] 1#1: signal 1 (SIGHUP) received from 165, reconfiguring
+2021/08/25 15:33:15 [notice] 1#1: reconfiguring
+2021/08/25 15:33:15 [notice] 1#1: using the "epoll" event method
+2021/08/25 15:33:15 [notice] 1#1: start worker processes
+2021/08/25 15:33:15 [notice] 1#1: start worker process 166
+2021/08/25 15:33:15 [notice] 1#1: start worker process 167
+2021/08/25 15:33:15 [notice] 163#163: gracefully shutting down
+2021/08/25 15:33:15 [notice] 164#164: gracefully shutting down
+2021/08/25 15:33:15 [notice] 163#163: exiting
+2021/08/25 15:33:15 [notice] 163#163: exit
+2021/08/25 15:33:15 [notice] 164#164: exiting
+2021/08/25 15:33:15 [notice] 164#164: exit
+2021/08/25 15:33:15 [notice] 1#1: signal 17 (SIGCHLD) received from 163
+2021/08/25 15:33:15 [notice] 1#1: worker process 163 exited with code 0
+2021/08/25 15:33:15 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/25 15:33:15 [notice] 1#1: signal 17 (SIGCHLD) received from 164
+2021/08/25 15:33:15 [notice] 1#1: worker process 164 exited with code 0
+2021/08/25 15:33:15 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/26 12:38:33 [notice] 168#168: signal process started
+2021/08/26 12:38:33 [notice] 1#1: signal 1 (SIGHUP) received from 168, reconfiguring
+2021/08/26 12:38:33 [notice] 1#1: reconfiguring
+2021/08/26 12:38:33 [notice] 1#1: using the "epoll" event method
+2021/08/26 12:38:33 [notice] 1#1: start worker processes
+2021/08/26 12:38:33 [notice] 1#1: start worker process 169
+2021/08/26 12:38:33 [notice] 1#1: start worker process 170
+2021/08/26 12:38:33 [notice] 166#166: gracefully shutting down
+2021/08/26 12:38:33 [notice] 167#167: gracefully shutting down
+2021/08/26 12:38:33 [notice] 166#166: exiting
+2021/08/26 12:38:33 [notice] 166#166: exit
+2021/08/26 12:38:33 [notice] 167#167: exiting
+2021/08/26 12:38:33 [notice] 167#167: exit
+2021/08/26 12:38:33 [notice] 1#1: signal 17 (SIGCHLD) received from 167
+2021/08/26 12:38:33 [notice] 1#1: worker process 167 exited with code 0
+2021/08/26 12:38:33 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/26 12:38:33 [notice] 1#1: signal 17 (SIGCHLD) received from 166
+2021/08/26 12:38:33 [notice] 1#1: worker process 166 exited with code 0
+2021/08/26 12:38:33 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/26 12:38:35 [error] 170#170: *312 open() "/var/www/lali.print/public&" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /FREY/DAniil/Vladimirovich HTTP/1.1", host: "lali.print:8000"
+2021/08/26 12:38:36 [error] 170#170: *312 open() "/var/www/lali.print/public&" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /FREY/DAniil/Vladimirovich HTTP/1.1", host: "lali.print:8000"
+2021/08/26 12:39:06 [error] 170#170: *312 open() "/var/www/lali.print/public&" failed (2: No such file or directory), client: 172.18.0.1, server: lali.print, request: "GET /FREY/DAniil/Vladimirovich HTTP/1.1", host: "lali.print:8000"
+2021/08/26 12:39:08 [notice] 171#171: signal process started
+2021/08/26 12:39:08 [notice] 1#1: signal 1 (SIGHUP) received from 171, reconfiguring
+2021/08/26 12:39:08 [notice] 1#1: reconfiguring
+2021/08/26 12:39:08 [notice] 1#1: using the "epoll" event method
+2021/08/26 12:39:08 [notice] 1#1: start worker processes
+2021/08/26 12:39:08 [notice] 1#1: start worker process 172
+2021/08/26 12:39:08 [notice] 1#1: start worker process 173
+2021/08/26 12:39:08 [notice] 170#170: gracefully shutting down
+2021/08/26 12:39:08 [notice] 170#170: exiting
+2021/08/26 12:39:08 [notice] 169#169: gracefully shutting down
+2021/08/26 12:39:08 [notice] 169#169: exiting
+2021/08/26 12:39:08 [notice] 170#170: exit
+2021/08/26 12:39:08 [notice] 169#169: exit
+2021/08/26 12:39:08 [notice] 1#1: signal 17 (SIGCHLD) received from 170
+2021/08/26 12:39:08 [notice] 1#1: worker process 170 exited with code 0
+2021/08/26 12:39:08 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/26 12:39:08 [notice] 1#1: signal 17 (SIGCHLD) received from 169
+2021/08/26 12:39:08 [notice] 1#1: worker process 169 exited with code 0
+2021/08/26 12:39:08 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/26 12:39:48 [notice] 174#174: signal process started
+2021/08/26 12:39:48 [notice] 1#1: signal 1 (SIGHUP) received from 174, reconfiguring
+2021/08/26 12:39:48 [notice] 1#1: reconfiguring
+2021/08/26 12:39:48 [notice] 1#1: using the "epoll" event method
+2021/08/26 12:39:48 [notice] 1#1: start worker processes
+2021/08/26 12:39:48 [notice] 1#1: start worker process 175
+2021/08/26 12:39:48 [notice] 1#1: start worker process 176
+2021/08/26 12:39:48 [notice] 172#172: gracefully shutting down
+2021/08/26 12:39:48 [notice] 172#172: exiting
+2021/08/26 12:39:48 [notice] 173#173: gracefully shutting down
+2021/08/26 12:39:48 [notice] 173#173: exiting
+2021/08/26 12:39:48 [notice] 172#172: exit
+2021/08/26 12:39:48 [notice] 173#173: exit
+2021/08/26 12:39:48 [notice] 1#1: signal 17 (SIGCHLD) received from 172
+2021/08/26 12:39:48 [notice] 1#1: worker process 172 exited with code 0
+2021/08/26 12:39:48 [notice] 1#1: worker process 173 exited with code 0
+2021/08/26 12:39:48 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/26 12:39:48 [notice] 1#1: signal 17 (SIGCHLD) received from 173
+2021/08/26 12:45:24 [notice] 177#177: signal process started
+2021/08/26 12:45:24 [notice] 1#1: signal 1 (SIGHUP) received from 177, reconfiguring
+2021/08/26 12:45:24 [notice] 1#1: reconfiguring
+2021/08/26 12:45:24 [notice] 1#1: using the "epoll" event method
+2021/08/26 12:45:24 [notice] 1#1: start worker processes
+2021/08/26 12:45:24 [notice] 1#1: start worker process 178
+2021/08/26 12:45:24 [notice] 1#1: start worker process 179
+2021/08/26 12:45:25 [notice] 175#175: gracefully shutting down
+2021/08/26 12:45:25 [notice] 175#175: exiting
+2021/08/26 12:45:25 [notice] 176#176: gracefully shutting down
+2021/08/26 12:45:25 [notice] 176#176: exiting
+2021/08/26 12:45:25 [notice] 175#175: exit
+2021/08/26 12:45:25 [notice] 176#176: exit
+2021/08/26 12:45:25 [notice] 1#1: signal 17 (SIGCHLD) received from 175
+2021/08/26 12:45:25 [notice] 1#1: worker process 175 exited with code 0
+2021/08/26 12:45:25 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/26 12:45:25 [notice] 1#1: signal 17 (SIGCHLD) received from 176
+2021/08/26 12:45:25 [notice] 1#1: worker process 176 exited with code 0
+2021/08/26 12:45:25 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/26 12:46:13 [notice] 180#180: signal process started
+2021/08/26 12:46:13 [notice] 1#1: signal 1 (SIGHUP) received from 180, reconfiguring
+2021/08/26 12:46:13 [notice] 1#1: reconfiguring
+2021/08/26 12:46:13 [notice] 1#1: using the "epoll" event method
+2021/08/26 12:46:13 [notice] 1#1: start worker processes
+2021/08/26 12:46:13 [notice] 1#1: start worker process 181
+2021/08/26 12:46:13 [notice] 1#1: start worker process 182
+2021/08/26 12:46:13 [notice] 178#178: gracefully shutting down
+2021/08/26 12:46:13 [notice] 178#178: exiting
+2021/08/26 12:46:13 [notice] 179#179: gracefully shutting down
+2021/08/26 12:46:13 [notice] 179#179: exiting
+2021/08/26 12:46:13 [notice] 178#178: exit
+2021/08/26 12:46:13 [notice] 179#179: exit
+2021/08/26 12:46:13 [notice] 1#1: signal 17 (SIGCHLD) received from 178
+2021/08/26 12:46:13 [notice] 1#1: worker process 178 exited with code 0
+2021/08/26 12:46:13 [notice] 1#1: worker process 179 exited with code 0
+2021/08/26 12:46:13 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/26 12:46:13 [notice] 1#1: signal 17 (SIGCHLD) received from 179
+2021/08/26 12:49:35 [emerg] 183#183: invalid variable name in /etc/nginx/conf.d/lali-print.conf:13
+2021/08/26 12:49:37 [emerg] 184#184: invalid variable name in /etc/nginx/conf.d/lali-print.conf:13
+2021/08/26 12:50:51 [emerg] 185#185: invalid variable name in /etc/nginx/conf.d/lali-print.conf:13
+2021/08/26 12:51:38 [emerg] 186#186: invalid variable name in /etc/nginx/conf.d/lali-print.conf:13
+2021/08/26 12:59:27 [emerg] 187#187: invalid variable name in /etc/nginx/conf.d/lali-print.conf:13
+2021/08/26 12:59:29 [emerg] 188#188: invalid variable name in /etc/nginx/conf.d/lali-print.conf:13
+2021/08/26 12:59:38 [emerg] 189#189: invalid number of arguments in "try_files" directive in /etc/nginx/conf.d/lali-print.conf:21
+2021/08/26 13:02:21 [notice] 190#190: signal process started
+2021/08/26 13:02:21 [notice] 1#1: signal 1 (SIGHUP) received from 190, reconfiguring
+2021/08/26 13:02:21 [notice] 1#1: reconfiguring
+2021/08/26 13:02:21 [notice] 1#1: using the "epoll" event method
+2021/08/26 13:02:21 [notice] 1#1: start worker processes
+2021/08/26 13:02:21 [notice] 1#1: start worker process 191
+2021/08/26 13:02:21 [notice] 1#1: start worker process 192
+2021/08/26 13:02:21 [notice] 181#181: gracefully shutting down
+2021/08/26 13:02:21 [notice] 181#181: exiting
+2021/08/26 13:02:21 [notice] 182#182: gracefully shutting down
+2021/08/26 13:02:21 [notice] 182#182: exiting
+2021/08/26 13:02:21 [notice] 181#181: exit
+2021/08/26 13:02:21 [notice] 182#182: exit
+2021/08/26 13:02:21 [notice] 1#1: signal 17 (SIGCHLD) received from 181
+2021/08/26 13:02:21 [notice] 1#1: worker process 181 exited with code 0
+2021/08/26 13:02:21 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/26 13:02:21 [notice] 1#1: signal 17 (SIGCHLD) received from 182
+2021/08/26 13:02:21 [notice] 1#1: worker process 182 exited with code 0
+2021/08/26 13:02:21 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/26 13:03:26 [emerg] 193#193: "try_files" directive is not allowed here in /etc/nginx/conf.d/lali-print.conf:24
+2021/08/26 13:04:09 [emerg] 194#194: "try_files" directive is not allowed here in /etc/nginx/conf.d/lali-print.conf:24
+2021/08/26 13:04:32 [emerg] 195#195: "fastcgi_split_path_info" directive is not allowed here in /etc/nginx/conf.d/lali-print.conf:25
+2021/08/26 13:04:56 [emerg] 196#196: invalid variable name in /etc/nginx/conf.d/lali-print.conf:27
+2021/08/26 13:04:59 [emerg] 197#197: invalid variable name in /etc/nginx/conf.d/lali-print.conf:27
+2021/08/26 13:05:47 [emerg] 198#198: invalid variable name in /etc/nginx/conf.d/lali-print.conf:26
+2021/08/26 13:06:05 [notice] 199#199: signal process started
+2021/08/26 13:06:05 [notice] 1#1: signal 1 (SIGHUP) received from 199, reconfiguring
+2021/08/26 13:06:05 [notice] 1#1: reconfiguring
+2021/08/26 13:06:05 [notice] 1#1: using the "epoll" event method
+2021/08/26 13:06:05 [notice] 1#1: start worker processes
+2021/08/26 13:06:05 [notice] 1#1: start worker process 200
+2021/08/26 13:06:05 [notice] 1#1: start worker process 201
+2021/08/26 13:06:06 [notice] 191#191: gracefully shutting down
+2021/08/26 13:06:06 [notice] 191#191: exiting
+2021/08/26 13:06:06 [notice] 192#192: gracefully shutting down
+2021/08/26 13:06:06 [notice] 192#192: exiting
+2021/08/26 13:06:06 [notice] 191#191: exit
+2021/08/26 13:06:06 [notice] 192#192: exit
+2021/08/26 13:06:06 [notice] 1#1: signal 17 (SIGCHLD) received from 192
+2021/08/26 13:06:06 [notice] 1#1: worker process 192 exited with code 0
+2021/08/26 13:06:06 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/26 13:06:06 [notice] 1#1: signal 17 (SIGCHLD) received from 191
+2021/08/26 13:06:06 [notice] 1#1: worker process 191 exited with code 0
+2021/08/26 13:06:06 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/30 09:00:50 [emerg] 1#1: invalid variable name in /etc/nginx/conf.d/lali-print.conf:26
+2021/08/30 09:01:38 [emerg] 1#1: invalid variable name in /etc/nginx/conf.d/lali-print.conf:26
+2021/08/30 09:08:56 [emerg] 1#1: invalid variable name in /etc/nginx/conf.d/lali-print.conf:26
+2021/08/30 09:09:44 [emerg] 1#1: invalid variable name in /etc/nginx/conf.d/lali-print.conf:26
+2021/08/30 09:21:44 [emerg] 1#1: invalid variable name in /etc/nginx/conf.d/lali-print.conf:26
+2021/08/30 09:25:20 [emerg] 1#1: invalid variable name in /etc/nginx/conf.d/lali-print.conf:26
+2021/08/30 09:27:41 [emerg] 1#1: invalid variable name in /etc/nginx/conf.d/lali-print.conf:26
+2021/08/30 09:28:39 [emerg] 1#1: invalid variable name in /etc/nginx/conf.d/lali-print.conf:26
+2021/08/30 09:40:48 [emerg] 1#1: invalid variable name in /etc/nginx/conf.d/lali-print.conf:26
+2021/08/30 10:05:54 [emerg] 1#1: invalid variable name in /etc/nginx/conf.d/lali-print.conf:26
+2021/08/30 10:14:53 [emerg] 1#1: invalid variable name in /etc/nginx/conf.d/lali-print.conf:26
+2021/08/30 10:15:46 [emerg] 1#1: invalid variable name in /etc/nginx/conf.d/lali-print.conf:26
+2021/08/30 10:35:56 [emerg] 1#1: unexpected end of file, expecting ";" or "}" in /etc/nginx/conf.d/lali-print.conf:25
+2021/08/30 10:47:46 [emerg] 1#1: unexpected end of file, expecting ";" or "}" in /etc/nginx/conf.d/lali-print.conf:25
+2021/08/30 10:49:24 [emerg] 1#1: unexpected end of file, expecting ";" or "}" in /etc/nginx/conf.d/lali-print.conf:25
+2021/08/30 10:49:27 [emerg] 1#1: unexpected end of file, expecting ";" or "}" in /etc/nginx/conf.d/lali-print.conf:25
+2021/08/30 10:50:57 [emerg] 1#1: unexpected end of file, expecting ";" or "}" in /etc/nginx/conf.d/lali-print.conf:25
+2021/08/30 10:52:04 [notice] 1#1: using the "epoll" event method
+2021/08/30 10:52:04 [notice] 1#1: nginx/1.21.1
+2021/08/30 10:52:04 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/30 10:52:04 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2021/08/30 10:52:04 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/30 10:52:04 [notice] 1#1: start worker processes
+2021/08/30 10:52:04 [notice] 1#1: start worker process 22
+2021/08/30 10:52:04 [notice] 1#1: start worker process 23
+2021/08/30 10:52:04 [notice] 1#1: start worker process 24
+2021/08/30 10:52:04 [notice] 1#1: start worker process 25
+2021/08/30 10:52:04 [notice] 1#1: start worker process 26
+2021/08/30 10:52:04 [notice] 1#1: start worker process 27
+2021/08/30 10:52:04 [notice] 1#1: start worker process 28
+2021/08/30 10:52:04 [notice] 1#1: start worker process 29
+2021/08/30 10:53:16 [notice] 36#36: signal process started
+2021/08/30 10:53:16 [notice] 1#1: signal 1 (SIGHUP) received from 36, reconfiguring
+2021/08/30 10:53:16 [notice] 1#1: reconfiguring
+2021/08/30 10:53:16 [notice] 1#1: using the "epoll" event method
+2021/08/30 10:53:16 [notice] 1#1: start worker processes
+2021/08/30 10:53:16 [notice] 1#1: start worker process 37
+2021/08/30 10:53:16 [notice] 1#1: start worker process 38
+2021/08/30 10:53:16 [notice] 1#1: start worker process 39
+2021/08/30 10:53:16 [notice] 1#1: start worker process 40
+2021/08/30 10:53:16 [notice] 1#1: start worker process 41
+2021/08/30 10:53:16 [notice] 1#1: start worker process 42
+2021/08/30 10:53:16 [notice] 1#1: start worker process 43
+2021/08/30 10:53:16 [notice] 1#1: start worker process 44
+2021/08/30 10:53:16 [notice] 22#22: gracefully shutting down
+2021/08/30 10:53:16 [notice] 22#22: exiting
+2021/08/30 10:53:16 [notice] 23#23: gracefully shutting down
+2021/08/30 10:53:16 [notice] 23#23: exiting
+2021/08/30 10:53:16 [notice] 24#24: gracefully shutting down
+2021/08/30 10:53:16 [notice] 25#25: gracefully shutting down
+2021/08/30 10:53:16 [notice] 26#26: gracefully shutting down
+2021/08/30 10:53:16 [notice] 27#27: gracefully shutting down
+2021/08/30 10:53:16 [notice] 28#28: gracefully shutting down
+2021/08/30 10:53:16 [notice] 29#29: gracefully shutting down
+2021/08/30 10:53:16 [notice] 22#22: exit
+2021/08/30 10:53:16 [notice] 23#23: exit
+2021/08/30 10:53:16 [notice] 24#24: exiting
+2021/08/30 10:53:16 [notice] 25#25: exiting
+2021/08/30 10:53:16 [notice] 26#26: exiting
+2021/08/30 10:53:16 [notice] 27#27: exiting
+2021/08/30 10:53:16 [notice] 28#28: exiting
+2021/08/30 10:53:16 [notice] 29#29: exiting
+2021/08/30 10:53:16 [notice] 24#24: exit
+2021/08/30 10:53:16 [notice] 25#25: exit
+2021/08/30 10:53:16 [notice] 26#26: exit
+2021/08/30 10:53:16 [notice] 27#27: exit
+2021/08/30 10:53:16 [notice] 28#28: exit
+2021/08/30 10:53:16 [notice] 29#29: exit
+2021/08/30 10:53:16 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/08/30 10:53:16 [notice] 1#1: worker process 23 exited with code 0
+2021/08/30 10:53:16 [notice] 1#1: worker process 29 exited with code 0
+2021/08/30 10:53:16 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/30 10:53:16 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2021/08/30 10:53:16 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2021/08/30 10:53:16 [notice] 1#1: worker process 24 exited with code 0
+2021/08/30 10:53:16 [notice] 1#1: worker process 27 exited with code 0
+2021/08/30 10:53:16 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/30 10:53:16 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/08/30 10:53:16 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2021/08/30 10:53:16 [notice] 1#1: worker process 22 exited with code 0
+2021/08/30 10:53:16 [notice] 1#1: worker process 26 exited with code 0
+2021/08/30 10:53:16 [notice] 1#1: worker process 28 exited with code 0
+2021/08/30 10:53:16 [notice] 1#1: worker process 25 exited with code 0
+2021/08/30 10:53:16 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/30 10:53:16 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2021/08/30 11:13:53 [notice] 1#1: using the "epoll" event method
+2021/08/30 11:13:53 [notice] 1#1: nginx/1.21.1
+2021/08/30 11:13:53 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/30 11:13:53 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2021/08/30 11:13:53 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/30 11:13:53 [notice] 1#1: start worker processes
+2021/08/30 11:13:53 [notice] 1#1: start worker process 23
+2021/08/30 11:13:53 [notice] 1#1: start worker process 24
+2021/08/30 11:13:53 [notice] 1#1: start worker process 25
+2021/08/30 11:13:53 [notice] 1#1: start worker process 26
+2021/08/30 11:13:53 [notice] 1#1: start worker process 27
+2021/08/30 11:13:53 [notice] 1#1: start worker process 28
+2021/08/30 11:13:53 [notice] 1#1: start worker process 29
+2021/08/30 11:13:53 [notice] 1#1: start worker process 30
+2021/08/30 11:52:51 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/30 11:52:51 [notice] 23#23: gracefully shutting down
+2021/08/30 11:52:51 [notice] 24#24: gracefully shutting down
+2021/08/30 11:52:51 [notice] 26#26: gracefully shutting down
+2021/08/30 11:52:51 [notice] 29#29: gracefully shutting down
+2021/08/30 11:52:51 [notice] 25#25: gracefully shutting down
+2021/08/30 11:52:51 [notice] 27#27: gracefully shutting down
+2021/08/30 11:52:51 [notice] 23#23: exiting
+2021/08/30 11:52:51 [notice] 26#26: exiting
+2021/08/30 11:52:51 [notice] 30#30: gracefully shutting down
+2021/08/30 11:52:51 [notice] 29#29: exiting
+2021/08/30 11:52:51 [notice] 28#28: gracefully shutting down
+2021/08/30 11:52:51 [notice] 29#29: exit
+2021/08/30 11:52:51 [notice] 24#24: exiting
+2021/08/30 11:52:51 [notice] 23#23: exit
+2021/08/30 11:52:51 [notice] 25#25: exiting
+2021/08/30 11:52:51 [notice] 26#26: exit
+2021/08/30 11:52:51 [notice] 27#27: exiting
+2021/08/30 11:52:51 [notice] 24#24: exit
+2021/08/30 11:52:51 [notice] 30#30: exiting
+2021/08/30 11:52:51 [notice] 28#28: exiting
+2021/08/30 11:52:51 [notice] 30#30: exit
+2021/08/30 11:52:51 [notice] 25#25: exit
+2021/08/30 11:52:51 [notice] 27#27: exit
+2021/08/30 11:52:51 [notice] 28#28: exit
+2021/08/30 11:52:51 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2021/08/30 11:52:51 [notice] 1#1: worker process 23 exited with code 0
+2021/08/30 11:52:51 [notice] 1#1: worker process 29 exited with code 0
+2021/08/30 11:52:51 [notice] 1#1: worker process 30 exited with code 0
+2021/08/30 11:52:51 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/30 11:52:51 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/08/30 11:52:51 [notice] 1#1: worker process 24 exited with code 0
+2021/08/30 11:52:51 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/30 11:52:51 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2021/08/30 11:52:51 [notice] 1#1: worker process 25 exited with code 0
+2021/08/30 11:52:51 [notice] 1#1: worker process 26 exited with code 0
+2021/08/30 11:52:51 [notice] 1#1: worker process 27 exited with code 0
+2021/08/30 11:52:51 [notice] 1#1: worker process 28 exited with code 0
+2021/08/30 11:52:51 [notice] 1#1: exit
