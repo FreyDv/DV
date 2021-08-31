@@ -18,10 +18,18 @@ $app_path = substr_replace($app_path,'',strripos($app_path,'/'));
 define("PATH", $app_path);
 define("ADMIN", $app_path.'/admin');
 
-echo 'PATH'." - ".PATH.'<br>';
-echo 'ADMIN'." - ".ADMIN.'<br>';
+
+//  docker ps
+//  docker exec -it 66666666 /bin/bash
+//  cd /var/www/lali.print/
+//  composer  dumpautoload     или   composer install
+//
+require_once ROOT."/vendor/autoload.php";
+
 
 function site_ini(){
+    echo 'PATH'." - ".PATH.'<br>';
+    echo 'ADMIN'." - ".ADMIN.'<br>';
     echo  '<table border="1", bordercolor="red">';
     echo "<tbody>";
     echo "<tr>"."<td>".'DEBUG'.'</td>'."<td>".DEBUG.'</td>'.'</tr>';
@@ -39,5 +47,7 @@ function site_ini(){
     echo "</tbody>";
     echo  '</table>';
 
-require_once ROOT."/vendor/autoload.php";
+
+
+
 }

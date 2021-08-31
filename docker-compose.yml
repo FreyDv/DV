@@ -24,7 +24,7 @@ services:
       volumes:
         - ./www:/var/www
         - ./images/php/xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini
-        - ./images/php//volume:/usr/local/etc/php
+        - ./images/php/volume:/usr/local/etc/php
   mysql:
     image: mysql
     ports:
