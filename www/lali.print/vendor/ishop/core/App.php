@@ -12,7 +12,9 @@ class App
 //        echo $query;
         self::$app=Registry::instance();
         $this->getParams();
+        new ErrorHandler();
         return self::$app;
+
     }
 
     protected function getParams(){

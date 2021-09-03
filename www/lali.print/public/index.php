@@ -6,8 +6,17 @@ require_once  LIBS.'/functions.php';
 
 new ishop\App();
 \ishop\App::$app->setProperties('test','test');
-debug(ishop\App::$app->getProperties());
-
+//debug(ishop\App::$app->getProperties());
+//debug($_SERVER);
+//echo var_dump($_SERVER['REQUEST_URI']);
+$route = explode("/", $_SERVER['REQUEST_URI']);
+//echo var_dump($route);
+if (in_array("test", $route)) {
+    echo var_dump($_SERVER['REQUEST_URI']);
+}
+//else {
+   throw new Exception('Страница не найдена',500);
+//}
 
 ?>
 

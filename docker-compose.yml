@@ -12,6 +12,7 @@ services:
       - ./hosts:/etc/nginx/conf.d
       - ./www:/var/www
       - ./logs:/var/log/nginx
+     # - ./nginxAllFile:/etc/nginx
     # nginx должен общаться с php контейнером
     links:
       - php
