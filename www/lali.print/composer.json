@@ -12,7 +12,8 @@
   "autoload": {
     "psr-4": {
       "ishop\\": "vendor/ishop/core",
-      "app\\": "app"
+      "app\\": "app",
+      "error404\\": "/public/errors/web404_1"
     }
   },
   "require": {

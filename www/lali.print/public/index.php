@@ -1,22 +1,19 @@
 <?php
 require_once dirname(__DIR__).'/config/init.php';
 require_once  LIBS.'/functions.php';
+require_once  CONF.'/routes.php';
 //
-//site_ini();
+
 
 new ishop\App();
 \ishop\App::$app->setProperties('test','test');
-//debug(ishop\App::$app->getProperties());
-//debug($_SERVER);
-//echo var_dump($_SERVER['REQUEST_URI']);
-$route = explode("/", $_SERVER['REQUEST_URI']);
-//echo var_dump($route);
-if (in_array("test", $route)) {
-    echo var_dump($_SERVER['REQUEST_URI']);
-}
-//else {
-   throw new Exception('Страница не найдена',500);
-//}
+//site_ini();
+debug(\ishop\Router::getRoutes(),'DefoaultRoutes');
+
+
+
+//   throw new Exception('Страница не найдена',0);
+
 
 ?>
 

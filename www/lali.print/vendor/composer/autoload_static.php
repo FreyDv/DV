@@ -11,6 +11,10 @@ class ComposerStaticInitd3ae2e7911d721040e3b33788a1798ec
         array (
             'ishop\\' => 6,
         ),
+        'e' => 
+        array (
+            'error404\\' => 9,
+        ),
         'a' => 
         array (
             'app\\' => 4,
@@ -21,6 +25,10 @@ class ComposerStaticInitd3ae2e7911d721040e3b33788a1798ec
         'ishop\\' => 
         array (
             0 => __DIR__ . '/..' . '/ishop/core',
+        ),
+        'error404\\' => 
+        array (
+            0 => '/public/errors/web404_1',
         ),
         'app\\' => 
         array (

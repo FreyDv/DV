@@ -7,5 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'ishop\\' => array($vendorDir . '/ishop/core'),
+    'error404\\' => array('/public/errors/web404_1'),
     'app\\' => array($baseDir . '/app'),
 );

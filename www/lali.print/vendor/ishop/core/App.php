@@ -8,11 +8,13 @@ class App
     public function __construct()
     {
         session_start();
-//        $query = $_SERVER['QUERY_STRING'];
-//        echo $query;
+
         self::$app=Registry::instance();
         $this->getParams();
         new ErrorHandler();
+        $query = $_SERVER['REQUEST_URI'];
+        debug($query,'query from APP');
+        Router::dispatch($query);
         return self::$app;
 
     }

@@ -1,5 +1,7 @@
 <?php
 
+
+
 define("DEBUG",1);
 define("ROOT",dirname(__DIR__));
 define("WWW",ROOT.'/public');
@@ -10,6 +12,7 @@ define("CACHE",ROOT.'/tmp/cache');
 define("CONF",ROOT."/config");
 define("LAYOUT",'default');
 
+require_once  LIBS.'/functions.php';
 
 $app_path= "http://{$_SERVER['HTTP_HOST']}{$_SERVER['PHP_SELF']}";
 $app_path = preg_replace("#[^/]+$#",'',$app_path);
@@ -30,7 +33,7 @@ require_once ROOT."/vendor/autoload.php";
 function site_ini(){
     echo 'PATH'." - ".PATH.'<br>';
     echo 'ADMIN'." - ".ADMIN.'<br>';
-    echo  '<table border="1", bordercolor="red">';
+    echo  '<table border="1", bordercolor="red" rules= "all" cellspacing ="2" cellpadding = "2">';
     echo "<tbody>";
     echo "<tr>"."<td>".'DEBUG'.'</td>'."<td>".DEBUG.'</td>'.'</tr>';
     echo "<tr>"."<td>".'ROOT'.'</td>'."<td>".ROOT.'</td>'.'</tr>';
@@ -48,6 +51,8 @@ function site_ini(){
     echo  '</table>';
 
 
-
+//     debug($_SERVER['REQUEST_URI'],'REQUEST_URI');
+//     debug($_SERVER['QUERY_STRING'],'QUERY_STRING');
+//     debug($_SERVER['argv'],'argv');
 
 }
