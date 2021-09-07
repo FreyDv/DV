@@ -6991,3 +6991,19 @@
 2021/09/03 12:02:07 [notice] 1#1: signal 17 (SIGCHLD) received from 354
 2021/09/03 12:02:07 [notice] 1#1: worker process 354 exited with code 0
 2021/09/03 12:02:07 [notice] 1#1: signal 29 (SIGIO) received
+2021/09/06 10:55:56 [error] 362#362: *382 directory index of "/var/www/lali.print/public/FREY/" is forbidden, client: 172.18.0.1, server: lali.print, request: "GET /FREY/ HTTP/1.1", host: "lali.print:8000"
+2021/09/06 10:56:01 [error] 362#362: *382 directory index of "/var/www/lali.print/public/frey/" is forbidden, client: 172.18.0.1, server: lali.print, request: "GET /frey/ HTTP/1.1", host: "lali.print:8000"
+2021/09/07 11:25:04 [notice] 1#1: using the "epoll" event method
+2021/09/07 11:25:04 [notice] 1#1: nginx/1.21.1
+2021/09/07 11:25:04 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/09/07 11:25:04 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2021/09/07 11:25:04 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/09/07 11:25:04 [notice] 1#1: start worker processes
+2021/09/07 11:25:04 [notice] 1#1: start worker process 23
+2021/09/07 11:25:04 [notice] 1#1: start worker process 24
+2021/09/07 11:25:04 [notice] 1#1: start worker process 25
+2021/09/07 11:25:04 [notice] 1#1: start worker process 26
+2021/09/07 11:25:04 [notice] 1#1: start worker process 27
+2021/09/07 11:25:04 [notice] 1#1: start worker process 28
+2021/09/07 11:25:04 [notice] 1#1: start worker process 29
+2021/09/07 11:25:04 [notice] 1#1: start worker process 30

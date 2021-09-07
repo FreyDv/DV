@@ -8,7 +8,8 @@ require_once  CONF.'/routes.php';
 new ishop\App();
 \ishop\App::$app->setProperties('test','test');
 //site_ini();
-debug(\ishop\Router::getRoutes(),'DefoaultRoutes');
+debug(\ishop\Router::getRoute(),'Route');
+debug(\ishop\Router::getRoutes(),'DEF');
 
 
 

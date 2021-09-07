@@ -31,13 +31,20 @@ class Router
     }
 
     public static function matchRoute(string $url):bool{
-        foreach (self::$routes as $pattern => $route){
-            if(preg_match("#{$pattern}#",$url, $math)){
-                debug($math,'url');
-                debug($math,'Math');
+        foreach(self::$routes as $pattern => $route){
+            if(preg_match("#{$pattern}#",$url, $matches)){
+                self::$route=self::$routes[$pattern];
+                foreach ($matches as $k => $v){
+                    if(is_string($k)){
+                        self::$route[$k] = $v;
+                    }
+                    if(empty(self::$route['action'])){
+                        self::$route['action']='index';
+                    }
+                }
                 return true;
             }
-            return false;
         }
+        return false;
     }
 }

@@ -12,8 +12,8 @@ class App
         self::$app=Registry::instance();
         $this->getParams();
         new ErrorHandler();
-        $query = $_SERVER['REQUEST_URI'];
-        debug($query,'query from APP');
+        $query = trim((string) $_SERVER['REQUEST_URI'],'/');
+        debug($query);
         Router::dispatch($query);
         return self::$app;
 
