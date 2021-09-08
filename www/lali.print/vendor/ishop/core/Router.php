@@ -26,7 +26,7 @@ class Router
             echo 'OK';
         }
         else{
-            echo 'NO';
+            throw new \Exception('Page not Find',404);
         }
     }
 

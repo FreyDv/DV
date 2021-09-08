@@ -7007,3 +7007,19 @@
 2021/09/07 11:25:04 [notice] 1#1: start worker process 28
 2021/09/07 11:25:04 [notice] 1#1: start worker process 29
 2021/09/07 11:25:04 [notice] 1#1: start worker process 30
+2021/09/07 12:32:03 [error] 23#23: *83 directory index of "/var/www/lali.print/public/frey/" is forbidden, client: 172.18.0.1, server: lali.print, request: "GET /frey/ HTTP/1.1", host: "lali.print:8000"
+2021/09/07 12:32:10 [error] 23#23: *83 directory index of "/var/www/lali.print/public/frey/" is forbidden, client: 172.18.0.1, server: lali.print, request: "GET /frey/ HTTP/1.1", host: "lali.print:8000"
+2021/09/08 07:00:46 [notice] 1#1: using the "epoll" event method
+2021/09/08 07:00:46 [notice] 1#1: nginx/1.21.1
+2021/09/08 07:00:46 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/09/08 07:00:46 [notice] 1#1: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2021/09/08 07:00:46 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/09/08 07:00:46 [notice] 1#1: start worker processes
+2021/09/08 07:00:46 [notice] 1#1: start worker process 23
+2021/09/08 07:00:46 [notice] 1#1: start worker process 24
+2021/09/08 07:00:46 [notice] 1#1: start worker process 25
+2021/09/08 07:00:46 [notice] 1#1: start worker process 26
+2021/09/08 07:00:46 [notice] 1#1: start worker process 27
+2021/09/08 07:00:46 [notice] 1#1: start worker process 28
+2021/09/08 07:00:46 [notice] 1#1: start worker process 29
+2021/09/08 07:00:46 [notice] 1#1: start worker process 30
