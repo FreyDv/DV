@@ -5,6 +5,7 @@
       <path value="" />
       <path value="$PROJECT_DIR$/www/lali.print/vendor/composer" />
       <path value="$PROJECT_DIR$/www/lali.print/vendor/ishop/core" />
+      <path value="$PROJECT_DIR$/www/lali.print/vendor/ishop/Controller" />
     </include_path>
   </component>
   <component name="PhpInterpreters">

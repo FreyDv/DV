@@ -4924,3 +4924,291 @@
 [2021-09-08 07:10:36] Error message: Page not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 29
         
 ================================
+[2021-09-08 07:31:46] Error message: Page not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 29
+        
+================================
+[2021-09-08 07:31:51] Error message: Page not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 29
+        
+================================
+[2021-09-08 07:32:59] Error message: Page not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 29
+        
+================================
+[2021-09-08 07:33:06] Error message: Page not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 29
+        
+================================
+[2021-09-08 07:33:16] Error message: Page not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 29
+        
+================================
+[2021-09-08 07:33:27] Error message: Page not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 29
+        
+================================
+[2021-09-08 07:34:22] Error message: Page not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 29
+        
+================================
+[2021-09-08 07:43:59] Error message: Page not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 29
+        
+================================
+[2021-09-08 07:47:38] Error message: Page not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 29
+        
+================================
+[2021-09-08 08:40:29] Error message: Page not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 33
+        
+================================
+[2021-09-08 08:40:35] Error message: Page not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 33
+        
+================================
+[2021-09-08 08:40:36] Error message: Page not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 33
+        
+================================
+[2021-09-08 08:40:46] Error message: Page not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 33
+        
+================================
+[2021-09-08 08:40:54] Error message: Page not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 33
+        
+================================
+[2021-09-08 08:41:00] Error message: Page not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 33
+        
+================================
+[2021-09-08 08:43:56] Error message: Page not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 33
+        
+================================
+[2021-09-08 08:44:04] Error message: Page not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 33
+        
+================================
+[2021-09-08 08:44:07] Error message: Page not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 33
+        
+================================
+[2021-09-08 08:45:16] Error message: Page not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 33
+        
+================================
+[2021-09-09 07:27:51] Error message: Page not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 33
+        
+================================
+[2021-09-09 07:27:58] Error message: Page not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 33
+        
+================================
+[2021-09-09 07:49:24] Error message: Class app\controllers\MainPageGardenController not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 36
+        
+================================
+[2021-09-09 07:49:28] Error message: Page not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 40
+        
+================================
+[2021-09-09 07:49:29] Error message: Page not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 40
+        
+================================
+[2021-09-09 07:49:30] Error message: Class app\controllers\MainPageController not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 36
+        
+================================
+[2021-09-09 07:49:31] Error message: Class app\controllers\adminMainPageController not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 36
+        
+================================
+[2021-09-09 07:49:32] Error message: Class app\controllers\MainController not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 36
+        
+================================
+[2021-09-09 07:49:36] Error message: Class app\controllers\MainController not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 36
+        
+================================
+[2021-09-09 07:49:39] Error message: Class app\controllers\MainController not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 36
+        
+================================
+[2021-09-09 08:00:39] Error message: Class "app\controllers\MainController" not found | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 32
+        
+================================
+[2021-09-09 08:00:41] Error message: Class "app\controllers\MainController" not found | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 32
+        
+================================
+[2021-09-09 08:00:42] Error message: Class "app\controllers\MainController" not found | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 32
+        
+================================
+[2021-09-09 08:01:02] Error message: Call to undefined function ishop\loverCamelCase() | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 33
+        
+================================
+[2021-09-09 08:01:03] Error message: Call to undefined function ishop\loverCamelCase() | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 33
+        
+================================
+[2021-09-09 08:01:11] Error message: Call to undefined function ishop\loverCamelCase() | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 33
+        
+================================
+[2021-09-09 08:01:21] Error message: Call to undefined function ishop\loverCamelCase() | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 33
+        
+================================
+[2021-09-09 08:01:26] Error message: Call to undefined function ishop\loverCamelCase() | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 33
+        
+================================
+[2021-09-09 08:01:30] Error message: Call to undefined function ishop\loverCamelCase() | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 33
+        
+================================
+[2021-09-09 08:02:03] Error message: Call to undefined function ishop\loverCamelCase() | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 33
+        
+================================
+[2021-09-09 08:02:14] Error message: Class "app\controllers\MainController" not found | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 32
+        
+================================
+[2021-09-09 08:02:23] Error message: Class app\controllers\MainController not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 37
+        
+================================
+[2021-09-09 08:02:25] Error message: Class app\controllers\MainController not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 37
+        
+================================
+[2021-09-09 08:02:25] Error message: Class app\controllers\MainController not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 37
+        
+================================
+[2021-09-09 08:02:26] Error message: Class app\controllers\MainController not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 37
+        
+================================
+[2021-09-09 08:06:48] Error message: Class "app\controllers\MainController" not found | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 32
+        
+================================
+[2021-09-09 08:06:49] Error message: Class "app\controllers\MainController" not found | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 32
+        
+================================
+[2021-09-09 08:06:50] Error message: Class "app\controllers\MainController" not found | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 32
+        
+================================
+[2021-09-09 08:06:50] Error message: Class "app\controllers\MainController" not found | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 32
+        
+================================
+[2021-09-09 08:06:50] Error message: Class "app\controllers\MainController" not found | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 32
+        
+================================
+[2021-09-09 08:06:50] Error message: Class "app\controllers\MainController" not found | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 32
+        
+================================
+[2021-09-09 08:06:50] Error message: Class "app\controllers\MainController" not found | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 32
+        
+================================
+[2021-09-09 08:06:51] Error message: Class "app\controllers\MainController" not found | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 32
+        
+================================
+[2021-09-09 08:06:51] Error message: Class "app\controllers\MainController" not found | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 32
+        
+================================
+[2021-09-09 08:06:51] Error message: Class "app\controllers\MainController" not found | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 32
+        
+================================
+[2021-09-09 08:06:51] Error message: Class "app\controllers\MainController" not found | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 32
+        
+================================
+[2021-09-09 08:06:51] Error message: Class "app\controllers\MainController" not found | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 32
+        
+================================
+[2021-09-09 08:06:51] Error message: Class "app\controllers\MainController" not found | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 32
+        
+================================
+[2021-09-09 08:06:52] Error message: Class "app\controllers\MainController" not found | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 32
+        
+================================
+[2021-09-09 08:07:00] Error message: Call to undefined function ishop\loverCamelCase() | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 33
+        
+================================
+[2021-09-09 08:07:01] Error message: Call to undefined function ishop\loverCamelCase() | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 33
+        
+================================
+[2021-09-09 08:07:15] Error message: Call to undefined function ishop\loverCamelCase() | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 33
+        
+================================
+[2021-09-09 09:10:43] Error message: Class "app\controllers\DaniilController" not found | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 32
+        
+================================
+[2021-09-09 09:10:44] Error message: Class "app\controllers\DaniilController" not found | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 32
+        
+================================
+[2021-09-09 09:10:51] Error message: Class "app\controllers\MainController" not found | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 32
+        
+================================
+[2021-09-09 09:11:02] Error message: Class "app\controllers\MainController" not found | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 32
+        
+================================
+[2021-09-09 09:11:07] Error message: Class "app\controllers\MainController" not found | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 32
+        
+================================
+[2021-09-09 09:11:11] Error message: Class "app\controllers\MainController" not found | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 32
+        
+================================
+[2021-09-09 09:11:25] Error message: Class app\controllers\MainController not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 42
+        
+================================
+[2021-09-09 09:11:27] Error message: Class app\controllers\MainController not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 42
+        
+================================
+[2021-09-09 09:11:33] Error message: Class app\controllers\PageController not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 42
+        
+================================
+[2021-09-09 09:11:39] Error message: Class app\controllers\PageController not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 42
+        
+================================
+[2021-09-09 09:11:41] Error message: Class app\controllers\MainController not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 42
+        
+================================
+[2021-09-09 09:11:42] Error message: Class app\controllers\MainController not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 42
+        
+================================
+[2021-09-09 09:11:43] Error message: Class app\controllers\MainController not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 42
+        
+================================
+[2021-09-09 09:11:44] Error message: Class app\controllers\PageController not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 42
+        
+================================
+[2021-09-09 09:11:45] Error message: Class app\controllers\PageController not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 42
+        
+================================
+[2021-09-09 09:11:45] Error message: Class app\controllers\MainController not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 42
+        
+================================
+[2021-09-09 09:14:38] Error message: Method app\controllers\MainController:indexAction not find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 37
+        
+================================
+[2021-09-09 09:14:47] Error message: Too few arguments to function debug(), 0 passed in /var/www/lali.print/app/controllers/MainController.php on line 11 and at least 1 expected | FILE: /var/www/lali.print/vendor/ishop/core/libs/functions.php | line 3
+        
+================================
+[2021-09-09 09:15:21] Error message: Method app\controllers\MainController:indexAction not find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 37
+        
+================================
+[2021-09-09 09:15:23] Error message: Method app\controllers\MainController:indexAction not find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 37
+        
+================================
+[2021-09-09 09:15:39] Error message: Method app\controllers\MainController:indexAction not find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 37
+        
+================================
+[2021-09-09 09:15:51] Error message: Method app\controllers\MainController:indexAction not find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 37
+        
+================================
+[2021-09-09 09:15:56] Error message: Method app\controllers\MainController:indexAction not find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 37
+        
+================================
+[2021-09-09 09:16:28] Error message: Undefined constant "app\controllers\z" | FILE: /var/www/lali.print/app/controllers/MainController.php | line 11
+        
+================================
+[2021-09-09 11:58:18] Error message: Class "app\controllers\Controller" not found | FILE: /var/www/lali.print/app/controllers/MainController.php | line 7
+        
+================================
+[2021-09-09 11:59:52] Error message: Class "ishop\base\Controller" not found | FILE: /var/www/lali.print/app/controllers/MainController.php | line 8
+        
+================================
+[2021-09-09 12:28:47] Error message: Undefined constant "AMQP_EX_TYPE_DIRECT" | FILE: /var/www/lali.print/vendor/ishop/core/libs/functions.php | line 9
+        
+================================
+[2021-09-09 12:28:53] Error message: Undefined constant "AMQP_EX_TYPE_DIRECT" | FILE: /var/www/lali.print/vendor/ishop/core/libs/functions.php | line 9
+        
+================================
+[2021-09-09 12:52:34] Error message: Undefined constant "__CALLR_FILE__" | FILE: /var/www/lali.print/vendor/ishop/core/libs/functions.php | line 9
+        
+================================
+[2021-09-09 12:53:23] Error message: Undefined constant "__CALLER_FILE__" | FILE: /var/www/lali.print/vendor/ishop/core/libs/functions.php | line 9
+        
+================================
+[2021-09-09 12:53:24] Error message: Undefined constant "__CALLER_FILE__" | FILE: /var/www/lali.print/vendor/ishop/core/libs/functions.php | line 9
+        
+================================
+[2021-09-09 12:56:08] Error message: Undefined constant "debug_backtrace" | FILE: /var/www/lali.print/vendor/ishop/core/libs/functions.php | line 9
+        
+================================
+[2021-09-09 12:57:12] Error message: Class app\controllers\adminMainController not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 42
+        
+================================
+[2021-09-09 13:45:29] Error message: Unsupported operand types: string | int | FILE: /var/www/lali.print/vendor/ishop/core/libs/functions.php | line 14
+        
+================================
+[2021-09-09 13:45:31] Error message: Unsupported operand types: string | int | FILE: /var/www/lali.print/vendor/ishop/core/libs/functions.php | line 14
+        
+================================

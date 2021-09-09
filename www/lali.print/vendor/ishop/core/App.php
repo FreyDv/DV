@@ -8,13 +8,11 @@ class App
     public function __construct()
     {
         session_start();
-
         self::$app=Registry::instance();
         $this->getParams();
-        new ErrorHandler();
-        $query = trim((string) $_SERVER['REQUEST_URI'],'/');
-        debug($query);
-        Router::dispatch($query);
+        new ErrorHandler(); // Обработчик ощибок
+        $query = trim((string) $_SERVER['REQUEST_URI'],'/'); // обрезаю начальный слеш в сторке запроса
+        Router::dispatch($query); // Запуск маршутиризатора по сайту
         return self::$app;
 
     }
