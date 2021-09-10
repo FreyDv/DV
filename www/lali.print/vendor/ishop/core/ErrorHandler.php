@@ -34,7 +34,7 @@ class ErrorHandler
             require WWW . '/errors/web404_1/index.php';
             die;
         }
-        if(DEBUG){
+        if(DEBUG){+
             require  WWW.'/errors/dev.php';
         }else require WWW.'/errors/prod.php';
     }

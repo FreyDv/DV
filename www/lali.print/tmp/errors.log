@@ -5212,3 +5212,36 @@
 [2021-09-09 13:45:31] Error message: Unsupported operand types: string | int | FILE: /var/www/lali.print/vendor/ishop/core/libs/functions.php | line 14
         
 ================================
+[2021-09-10 08:07:10] Error message: Page not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 44
+        
+================================
+[2021-09-10 10:30:38] Error message: ishop\base\View::__construct(): Argument #2 ($layout) must be of type string, null given, called in /var/www/lali.print/vendor/ishop/core/base/Controller.php on line 28 | FILE: /var/www/lali.print/vendor/ishop/core/base/View.php | line 19
+        
+================================
+[2021-09-10 10:36:08] Error message: Failed opening required '/var/www/lali.print/app/views/Main/index.php' (include_path='.:/usr/local/lib/php') | FILE: /var/www/lali.print/vendor/ishop/core/base/View.php | line 39
+        
+================================
+[2021-09-10 10:36:18] Error message: Failed opening required '/var/www/lali.print/app/views/Main/index.php' (include_path='.:/usr/local/lib/php') | FILE: /var/www/lali.print/vendor/ishop/core/base/View.php | line 39
+        
+================================
+[2021-09-10 10:36:35] Error message: Failed opening required '/var/www/lali.print/app/views/Main/index.php' (include_path='.:/usr/local/lib/php') | FILE: /var/www/lali.print/vendor/ishop/core/base/View.php | line 39
+        
+================================
+[2021-09-10 10:38:56] Error message: Not Find view /var/www/lali.print/app/views/Main/index.php | FILE: /var/www/lali.print/vendor/ishop/core/base/View.php | line 42
+        
+================================
+[2021-09-10 11:22:02] Error message: syntax error, unexpected token "}" | FILE: /var/www/lali.print/vendor/ishop/core/base/View.php | line 50
+        
+================================
+[2021-09-10 11:37:06] Error message: syntax error, unexpected token "}" | FILE: /var/www/lali.print/vendor/ishop/core/base/View.php | line 51
+        
+================================
+[2021-09-10 11:37:08] Error message: syntax error, unexpected token "}" | FILE: /var/www/lali.print/vendor/ishop/core/base/View.php | line 51
+        
+================================
+[2021-09-10 14:00:53] Error message: Cannot use object of type ishop\base\Route as array | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 79
+        
+================================
+[2021-09-10 14:01:24] Error message: Cannot use object of type ishop\base\Route as array | FILE: /var/www/lali.print/vendor/ishop/core/base/View.php | line 22
+        
+================================
