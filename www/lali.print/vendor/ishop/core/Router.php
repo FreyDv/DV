@@ -4,7 +4,7 @@
 namespace ishop;
 
 
-use ishop\base\Route;
+use ishop\base\type\Route;
 
 class Router
 {
@@ -41,8 +41,9 @@ class Router
     {
         return self::$route;
     }
+
     /**
-     * @param array $route
+     * @param Route $route
      */
     public static function setRoute(Route $route): void
     {
@@ -54,6 +55,7 @@ class Router
      * @throws \Exception
      */
     public static function dispatch($url){
+        $url=self::removeGetQueryString($url);
         if (self::matchRoute($url)) {
             $controller = 'app\controllers\\' . self::$route->prefix. self::$route->controller . 'Controller';
             if (class_exists($controller)){
@@ -62,6 +64,7 @@ class Router
                 if(method_exists($controllerObject,$action)){
                     $controllerObject->$action();
                     $controllerObject->getView();
+
                 }else throw new \Exception('Method '.$controller.':'.$action.' not find',404);
             } else throw new \Exception('Class '.$controller.' not Find', 404);
         } else throw new \Exception('Page not Find', 404);
@@ -90,7 +93,7 @@ class Router
                                 break;
                             }
                             case 'action':{
-                                self::$route[$k] = $v;
+                                self::$route->action = $v;
                                 if (empty(self::$route->action)) {
                                     self::$route->action = 'index';
                                 }
@@ -118,8 +121,14 @@ class Router
      * @return string
      */
     protected static function loverCamelCase($name):string{
-        return lcfirst(self::upperCamelCase($name)).'Action';;
+        return lcfirst(self::upperCamelCase($name)).'Action';
     }
+
+    protected static  function removeGetQueryString($url):string {
+        return substr($url,0,strripos($url,'?'));
+    }
+
+
 
 
 

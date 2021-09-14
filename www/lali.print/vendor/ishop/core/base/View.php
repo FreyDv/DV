@@ -4,19 +4,23 @@
 namespace ishop\base;
 
 
+use ishop\base\type\Meta;
+use ishop\base\type\Route;
+
+
 class View
 {
 
-    public $route;
-    public $controller;
-    public $model;
-    public $view;
-    public $prefix;
-    public $layout;
-    public $data= [];
-    public $meta= [];
+    public Route $route;
+    public string $controller;
+    public string $model;
+    public string $view;
+    public string $prefix;
+    public string $layout;
+    public array $data= [];
+    public Meta $meta;
 
-    public function __construct(Route $route,string $layout = '',string $view='',array $meta=[])
+    public function __construct(Route $route,string $layout = '',string $view='',Meta $meta=null)
     {
         $this->route      = $route;
         $this->controller = $route->controller;
@@ -32,9 +36,14 @@ class View
         }
     }
 
+    /**
+     * @throws \Exception
+     */
     public function render($data){
+        if(is_array($data)){
+            extract($data);
+        }
        $viewFile= APP . "/views/{$this->prefix}{$this->controller}/{$this->view}.php";
-
        if(is_file($viewFile)) {
            ob_start();
            require_once $viewFile;
@@ -43,15 +52,19 @@ class View
        else{
             throw new \Exception("Not Find view {$viewFile}",500);
        }
-        if(false!==$this->layout){
+
+       if(false!==$this->layout){  //шаблон
             $layoutFile = APP."/views/layouts/{$this->layout}.php";
             if(is_file($layoutFile)){
                 require_once $layoutFile;
-
             }
             else{
                 throw new \Exception("NOT FIND SAMPLE",500);
             }
         }
+    }
+
+    public function getMeta(){
+        echo $this->meta->formatData();
     }
 }

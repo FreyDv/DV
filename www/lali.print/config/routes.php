@@ -1,6 +1,6 @@
 <?php
  use ishop\Router;
- use ishop\base\Route;
+use ishop\base\type\Route;
  //default rutes
 
 Router::add('^admin$',new Route('admin','Main','index'));

@@ -5245,3 +5245,72 @@
 [2021-09-10 14:01:24] Error message: Cannot use object of type ishop\base\Route as array | FILE: /var/www/lali.print/vendor/ishop/core/base/View.php | line 22
         
 ================================
+[2021-09-14 06:35:26] Error message: Page not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 67
+        
+================================
+[2021-09-14 09:24:14] Error message: Typed property ishop\base\Controller::$meta must not be accessed before initialization | FILE: /var/www/lali.print/vendor/ishop/core/base/Controller.php | line 32
+        
+================================
+[2021-09-14 09:25:31] Error message: Undefined constant "ishop\base\type\stringTitleAll" | FILE: /var/www/lali.print/vendor/ishop/core/base/type/Meta.php | line 22
+        
+================================
+[2021-09-14 09:27:05] Error message: ishop\base\View::__construct(): Argument #1 ($route) must be of type ishop\base\Route, ishop\base\type\Route given, called in /var/www/lali.print/vendor/ishop/core/base/Controller.php on line 33 | FILE: /var/www/lali.print/vendor/ishop/core/base/View.php | line 21
+        
+================================
+[2021-09-14 09:35:18] Error message: Class app\controllers\adminMainController not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 67
+        
+================================
+[2021-09-14 11:38:35] Error message: Failed opening required '
+<title>LaLiPrint индивидуальный принт и подход</title>
+<meta name="description" content="Изготовление рисунков надпесей на вещах собственого пошива. Дарим возможность быть собой!"/>
+<meta name="keywords" content="Одежда, Худи, Ричунок, Принт"/>' (include_path='.:/usr/local/lib/php') | FILE: /var/www/lali.print/vendor/ishop/core/base/View.php | line 67
+        
+================================
+[2021-09-14 11:38:37] Error message: Failed opening required '
+<title>LaLiPrint индивидуальный принт и подход</title>
+<meta name="description" content="Изготовление рисунков надпесей на вещах собственого пошива. Дарим возможность быть собой!"/>
+<meta name="keywords" content="Одежда, Худи, Ричунок, Принт"/>' (include_path='.:/usr/local/lib/php') | FILE: /var/www/lali.print/vendor/ishop/core/base/View.php | line 67
+        
+================================
+[2021-09-14 11:43:39] Error message: Failed opening required '
+<title>LaLiPrint индивидуальный принт и подход</title>
+<meta name="description" content="Изготовление рисунков надпесей на вещах собственого пошива. Дарим возможность быть собой!"/>
+<meta name="keywords" content="Одежда, Худи, Ричунок, Принт"/>' (include_path='.:/usr/local/lib/php') | FILE: /var/www/lali.print/vendor/ishop/core/base/View.php | line 67
+        
+================================
+[2021-09-14 11:45:23] Error message: syntax error, unexpected token "echo" | FILE: /var/www/lali.print/app/views/layouts/default.php | line 8
+        
+================================
+[2021-09-14 11:52:23] Error message: syntax error, unexpected token "echo" | FILE: /var/www/lali.print/app/views/layouts/default.php | line 8
+        
+================================
+[2021-09-14 12:50:56] Error message: Undefined constant "app\controllers\age" | FILE: /var/www/lali.print/app/controllers/MainController.php | line 24
+        
+================================
+[2021-09-14 12:51:46] Error message: Undefined constant "app\controllers\age" | FILE: /var/www/lali.print/app/controllers/MainController.php | line 24
+        
+================================
+[2021-09-14 12:52:04] Error message: Undefined constant "app\controllers\age" | FILE: /var/www/lali.print/app/controllers/MainController.php | line 24
+        
+================================
+[2021-09-14 12:58:33] Error message: syntax error, unexpected identifier "debug" | FILE: /var/www/lali.print/vendor/ishop/core/base/View.php | line 45
+        
+================================
+[2021-09-14 13:15:44] Error message: Page not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 69
+        
+================================
+[2021-09-14 13:53:05] Error message: Page not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 69
+        
+================================
+[2021-09-14 13:55:37] Error message: Call to undefined function ishop\removeGetQueryString() | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 58
+        
+================================
+[2021-09-14 13:59:48] Error message: Page not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 72
+        
+================================
+[2021-09-14 14:00:40] Error message: Page not Find | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 72
+        
+================================
+[2021-09-14 14:00:56] Error message: Cannot use object of type ishop\base\type\Route as array | FILE: /var/www/lali.print/vendor/ishop/core/Router.php | line 98
+        
+================================

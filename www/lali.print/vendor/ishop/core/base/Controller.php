@@ -4,17 +4,20 @@
 namespace ishop\base;
 
 
+use ishop\base\type\Meta;
+use ishop\base\type\Route;
+
 abstract class Controller
 {
 
     public Route $route;
-    public $controller;
-    public $model;
-    public $view;
-    public $prefix;
-    public $layout ='';
-    public $data= [];
-    public $meta= [];
+    public string $controller;
+    public string $model;
+    public string $view;
+    public string $prefix;
+    public string $layout ='';
+    public array $data= [];
+    public Meta $meta;
 
     public function __construct(Route $route)
     {
@@ -23,11 +26,13 @@ abstract class Controller
         $this->model      = $route->controller;
         $this->view       = $route->action;
         $this->prefix     = $route->prefix;
+        $this->meta = new Meta();
     }
 
     public function getView(){
         $viewObject = new View($this->route,$this->layout,$this->view,$this->meta);
         $viewObject->render($this->data);
+        $viewObject->getMeta();
     }
 
     public function set(array $data): void
@@ -36,9 +41,9 @@ abstract class Controller
     }
     public function setMeta(string $title='',string $desc='',string $keywords=''): void
     {
-        $this->meta['title'] = $title;
-        $this->meta['desc'] = $desc;
-        $this->meta['keywords'] = $keywords;
+        $this->meta->title = $title;
+        $this->meta->description = $desc;
+        $this->meta->keywords= $keywords;
     }
 
 }
