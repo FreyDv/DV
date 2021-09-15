@@ -19,7 +19,7 @@ abstract class Controller
     public array $data= [];
     public Meta $meta;
 
-    public function __construct(Route $route)
+   public function __construct(Route $route)
     {
         $this->route      = $route;
         $this->controller = $route->controller;
@@ -29,6 +29,9 @@ abstract class Controller
         $this->meta = new Meta();
     }
 
+    /**
+     * @throws \Exception
+     */
     public function getView(){
         $viewObject = new View($this->route,$this->layout,$this->view,$this->meta);
         $viewObject->render($this->data);

@@ -5,6 +5,7 @@
       <excludeFolder url="file://$MODULE_DIR$/www/lali.print/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/mysql" />
       <excludeFolder url="file://$MODULE_DIR$/www/lali.print/vendor/ishop/core/base5555" />
+      <excludeFolder url="file://$MODULE_DIR$/www/lali.print/vendor/gabordemooij/redbean" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

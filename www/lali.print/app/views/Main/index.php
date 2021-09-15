@@ -1,2 +1,11 @@
+<h1>Hello Wordl</h1>
+<p><?= /** @var string $name */
+    $name;?></p>
+
+
+<p><?=
+    /** @var integer $age */
+    $age;?></p>
 <?php
-echo '<h1>Hello Wordl</h1>';
+
+/** @var array $names */

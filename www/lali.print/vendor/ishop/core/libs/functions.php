@@ -10,10 +10,10 @@ function debug($arr,$name=null){
 
     $xline = $resultsCool[0]['line'];
     echo '<br>';
-    echo '<table border="1", bordercolor="blue" rules= all cellpadding = "2">';
+    echo '<table border="1", bordercolor="blue" rules= all cellpadding = "1">';
     echo "<tbody>";
     echo '<tr>'."<td>".$xpath.'<b>'.$xfile.'<b>'."  |  ".$xline.' | '.$name.'</td>'.'</tr>';
-    echo '<tr>'."<td><b>".$x.'</b></td>'.'</tr>';
+    echo '<tr>'."<td>".$x.'</td>'.'</tr>';
     echo "</tbody>";
     echo  '</table>';
 }

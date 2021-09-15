@@ -61,10 +61,13 @@ class Router
             if (class_exists($controller)){
                 $controllerObject = new $controller(self::$route);
                 $action = self::loverCamelCase(self::$route->action);
+
                 if(method_exists($controllerObject,$action)){
                     $controllerObject->$action();
                     $controllerObject->getView();
-
+                    self::$route->controller=$controller;
+                    self::$route->action=$action;
+                    debug(self::$route);
                 }else throw new \Exception('Method '.$controller.':'.$action.' not find',404);
             } else throw new \Exception('Class '.$controller.' not Find', 404);
         } else throw new \Exception('Page not Find', 404);
@@ -92,7 +95,8 @@ class Router
                                 self::$route->prefix= $v;
                                 break;
                             }
-                            case 'action':{
+                            case 'action':
+                            {
                                 self::$route->action = $v;
                                 if (empty(self::$route->action)) {
                                     self::$route->action = 'index';
@@ -125,12 +129,8 @@ class Router
     }
 
     protected static  function removeGetQueryString($url):string {
-        return substr($url,0,strripos($url,'?'));
+        $positionOfQuerySymbol=strripos($url,'?');
+        if($positionOfQuerySymbol===false) return $url;
+        return substr($url,0,$positionOfQuerySymbol);
     }
-
-
-
-
-
-
 }
