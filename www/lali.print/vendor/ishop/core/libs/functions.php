@@ -1,6 +1,6 @@
 <?php
 
-function debug($arr,$name=null){
+function debug($arr=null,$name=null){
     $x =  '<pre>'.print_r($arr,true) . '</pre>';
     $resultsCool = debug_backtrace();
     preg_match('/[a-zA-Z]+.[a-z]+$/',$resultsCool[0]['file'],$matchFile);
@@ -12,8 +12,15 @@ function debug($arr,$name=null){
     echo '<br>';
     echo '<table border="1", bordercolor="blue" rules= all cellpadding = "1">';
     echo "<tbody>";
-    echo '<tr>'."<td>".$xpath.'<b>'.$xfile.'<b>'."  |  ".$xline.' | '.$name.'</td>'.'</tr>';
-    echo '<tr>'."<td>".$x.'</td>'.'</tr>';
+    if(isset($arr)){
+        echo '<tr>'."<td>".$xpath.'<b>'.$xfile.'<b>'."  |  ".$xline.' | '.$name.'</td>'.'</tr>';
+        echo '<tr>'."<td>".$x.'</td>'.'</tr>';
+    }
+    else{
+        echo '<tr>'."<td>".$xpath.'<b>'.$xfile.'<b>'."  |  ".$xline.'</td>'.'</tr>';
+        echo '<tr>'."<td>".$name.'</td>'.'</tr>';
+    }
+
     echo "</tbody>";
     echo  '</table>';
 }

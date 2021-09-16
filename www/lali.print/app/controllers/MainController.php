@@ -7,10 +7,14 @@ namespace app\controllers;
 use ishop\App;
 use ishop\base\type\Meta;
 
+
 class MainController extends AppController
 {
     public function indexAction()
     {
+        $posts = \R::findAll('test');
+        debug($posts);
+
         $this->meta->title = App::$app->getProperties('shop_name').' индивидуальный принт и подход';
         $this->meta->description = 'Изготовление рисунков надпесей на вещах собственого пошива. Дарим возможность быть собой!';
         $this->meta->keywords = 'Одежда, Худи, Ричунок, Принт';
