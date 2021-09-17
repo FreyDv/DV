@@ -34,7 +34,7 @@ RUN apt-get update && apt-get install -y \
    	    libonig-dev \
    	    libzip-dev \
    	    libmcrypt-dev \
-   	    && docker-php-ext-install -j$(nproc)  mbstring iconv mysqli pdo_mysql zip \
+   	    && docker-php-ext-install -j$(nproc)  \mbstring iconv mysqli pdo_mysql zip \
     	&& docker-php-ext-configure gd --with-freetype --with-jpeg \
         && docker-php-ext-install -j$(nproc) gd
 
@@ -42,8 +42,9 @@ RUN apt-get update && apt-get install -y \
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 RUN pecl install xdebug \
     &&docker-php-ext-enable xdebug
+
 # Добавим свой php.ini, можем в нем определять свои значения конфигаcd
-ADD php.ini /usr/local/etc/php/conf.d/40-custom.ini
+ADD php.ini /usr/local/etc/php/
 # Указываем рабочую директорию для PHP
 WORKDIR /var/www
 

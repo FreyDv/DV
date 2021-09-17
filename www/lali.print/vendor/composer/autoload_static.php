@@ -7,6 +7,10 @@ namespace Composer\Autoload;
 class ComposerStaticInitd3ae2e7911d721040e3b33788a1798ec
 {
     public static $prefixLengthsPsr4 = array (
+        'r' => 
+        array (
+            'rb\\' => 3,
+        ),
         'i' => 
         array (
             'ishop\\' => 6,
@@ -26,6 +30,10 @@ class ComposerStaticInitd3ae2e7911d721040e3b33788a1798ec
     );
 
     public static $prefixDirsPsr4 = array (
+        'rb\\' => 
+        array (
+            0 => '/vendor/gabordemooij/redbean/RedBeanPHP',
+        ),
         'ishop\\' => 
         array (
             0 => __DIR__ . '/..' . '/ishop/core',

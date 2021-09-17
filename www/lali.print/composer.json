@@ -13,10 +13,12 @@
     "psr-4": {
       "ishop\\": "vendor/ishop/core",
       "app\\": "app",
-      "error404\\": "/public/errors/web404_1"
+      "error404\\": "/public/errors/web404_1",
+      "rb\\": "/vendor/gabordemooij/redbean/RedBeanPHP"
     }
   },
   "require": {
-    "gabordemooij/redbean": "dev-master"
+    "gabordemooij/redbean": "dev-master",
+    "ext-mysqli": "*"
   }
 }

@@ -8,7 +8,16 @@
     <?= $this->getMeta(); ?>
 </head>
 <body>
-<h1>Sample DEFAULT</h1>
-<h1><?=$content;?><h1>
+Sample DEFAULT
+<?=$content;?><h1>
+    <?php
+    use RedBeanPHP\R;
+    $logs = R::getDatabaseAdapter()
+        ->getDatabase()
+        ->getLogger();
+
+    debug( $logs->grep( 'SELECT' ),'DEBUG DB');
+
+    ?>
 </body>
 </html>

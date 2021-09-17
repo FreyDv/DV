@@ -67,7 +67,6 @@ class Router
                     $controllerObject->getView();
                     self::$route->controller=$controller;
                     self::$route->action=$action;
-                    debug(self::$route);
                 }else throw new \Exception('Method '.$controller.':'.$action.' not find',404);
             } else throw new \Exception('Class '.$controller.' not Find', 404);
         } else throw new \Exception('Page not Find', 404);
