@@ -61,12 +61,14 @@ class Router
             if (class_exists($controller)){
                 $controllerObject = new $controller(self::$route);
                 $action = self::loverCamelCase(self::$route->action);
-
                 if(method_exists($controllerObject,$action)){
-                    $controllerObject->$action();
-                    $controllerObject->getView();
-                    self::$route->controller=$controller;
+                    self::$route->controller=self::$route->controller;
                     self::$route->action=$action;
+                    $controllerObject->upDataRoute(self::$route);
+                    $controllerObject->getView();
+                    $controllerObject->$action();
+
+
                 }else throw new \Exception('Method '.$controller.':'.$action.' not find',404);
             } else throw new \Exception('Class '.$controller.' not Find', 404);
         } else throw new \Exception('Page not Find', 404);
@@ -115,6 +117,13 @@ class Router
      * @return string
      */
     protected static function upperCamelCase($name):string{   //решение с курсов
+//        $x = str_replace('-',' ',$name);
+//        debug($x,'after str_replace - ');
+//        $y = ucwords($x);
+//        debug($y,'after ucwords');
+//        $z = str_replace(' ','',$y);
+//        debug($z,'after str_replace Убратиь пробел ');
+//        return  $z;
         return str_replace(' ','',ucwords(str_replace('-',' ',$name)));
     }
 

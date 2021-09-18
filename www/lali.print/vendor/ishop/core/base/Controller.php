@@ -33,11 +33,11 @@ abstract class Controller
      * @throws \Exception
      */
     public function getView(){
+
         $viewObject = new View($this->route,$this->layout,$this->view,$this->meta);
         $viewObject->render($this->data);
         $viewObject->getMeta();
     }
-
     public function set(array $data): void
     {
         $this->data = $data;
@@ -47,6 +47,13 @@ abstract class Controller
         $this->meta->title = $title;
         $this->meta->description = $desc;
         $this->meta->keywords= $keywords;
+    }
+    public function  upDataRoute(Route $route){
+        $this->route      = $route;
+        $this->controller = $route->controller;
+        $this->model      = $route->controller;
+        $this->view       = $route->action;
+        $this->prefix     = $route->prefix;
     }
 
 }

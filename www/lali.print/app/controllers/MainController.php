@@ -20,13 +20,8 @@ class MainController extends AppController
         $this->meta->keywords = 'Одежда, Худи, Ричунок, Принт';
 
 
-        $names = ['Andrey','Kiril','Foma','Ihor','Geka','Daniil'];
-        $name ='Lera';
-        $age = 23;
-//        $this->set(['name'=>'Brus','age'=>30]);
-        $this->set(compact('name','age','names'));
-
-
-
+        $name =debug(name: 'Lera');
+        $age = debug(name: '23');
+        $this->set(compact('name','age'));
     }
 }

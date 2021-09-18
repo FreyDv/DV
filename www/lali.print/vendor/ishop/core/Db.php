@@ -1,12 +1,6 @@
 <?php
 
-
 namespace ishop;
-
-
-
-
-
 
 use mysql_xdevapi\Exception;
 use mysqli;
@@ -20,7 +14,6 @@ class Db
 
     public \ishop\base\type\DB $db;
 
-
     protected function __construct()
     {
         $this->db = require_once CONF .'/config_db.php';
@@ -31,9 +24,5 @@ class Db
         if (DEBUG){
             R::debug(true,1);
         }
-
-
-
-
     }
 }

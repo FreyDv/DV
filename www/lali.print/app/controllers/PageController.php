@@ -29,6 +29,5 @@ class PageController extends AppController
        $name ='Lera';
        $age = 23;
        $this->set(compact('name','age','cars'));
-       echo 'Hello World from PageController and seyHelloAction';
    }
 }
