@@ -21,7 +21,7 @@
             "time": "2021-07-14T18:24:04+00:00",
             "default-branch": true,
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "RedBeanPHP\\": "RedBeanPHP"

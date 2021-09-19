@@ -10,14 +10,14 @@
 <body>
  <?=$content;?>
 
-<!--    --><?php
-//    use RedBeanPHP\R;
-//    $logs = R::getDatabaseAdapter()
-//        ->getDatabase()
-//        ->getLogger();
-//
-//    debug( $logs->grep( 'SELECT' ),'DEBUG DB');
-//
-//    ?>
+    <?php
+    use RedBeanPHP\R;
+    $logs = R::getDatabaseAdapter()
+        ->getDatabase()
+        ->getLogger();
+
+    debug( $logs->grep( 'SELECT' ),'access to DB');
+
+    ?>
 </body>
 </html>

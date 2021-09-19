@@ -26,6 +26,7 @@ class Router
     {
         self::$routes[$regexp] = $route;
     }
+
     /**
      * @return array
      */
@@ -54,23 +55,20 @@ class Router
      * @param $url
      * @throws \Exception
      */
-    public static function dispatch($url){
-        $url=self::removeGetQueryString($url);
+    public static function dispatch($url)
+    {
+        $url = self::removeGetQueryString($url);
         if (self::matchRoute($url)) {
-            $controller = 'app\controllers\\' . self::$route->prefix. self::$route->controller . 'Controller';
-            if (class_exists($controller)){
+            $controller = 'app\controllers\\' . self::$route->prefix . self::$route->controller . 'Controller';
+            if (class_exists($controller)) {
+                self::$route->action = self::loverCamelCase(self::$route->action);
+                $action = self::$route->action . 'Action';
                 $controllerObject = new $controller(self::$route);
-                $action = self::loverCamelCase(self::$route->action);
-                if(method_exists($controllerObject,$action)){
-                    self::$route->controller=self::$route->controller;
-                    self::$route->action=$action;
-                    $controllerObject->upDataRoute(self::$route);
-                    $controllerObject->getView();
+                if (method_exists($controllerObject, $action)) {
                     $controllerObject->$action();
-
-
-                }else throw new \Exception('Method '.$controller.':'.$action.' not find',404);
-            } else throw new \Exception('Class '.$controller.' not Find', 404);
+                    $controllerObject->getView();
+                } else throw new \Exception('Method ' . $controller . ':' . $action . ' not find', 404);
+            } else throw new \Exception('Class ' . $controller . ' not Find', 404);
         } else throw new \Exception('Page not Find', 404);
     }
 
@@ -79,21 +77,25 @@ class Router
      * @param string $url
      * @return bool
      */
-    public static function matchRoute(string $url): bool{
+    public static function matchRoute(string $url): bool
+    {
         foreach (self::$routes as $pattern => $route) {
             if (preg_match("#{$pattern}#", $url, $matches)) {
+
                 self::$route = self::$routes[$pattern];
                 self::$route->controller = 'Main';
-                self::$route->action='index';
+                self::$route->action = 'index';
                 foreach ($matches as $k => $v) {
                     if (is_string($k)) {
                         switch ($k) {
-                            case 'controller':{
+                            case 'controller':
+                            {
                                 self::$route->controller = self::upperCamelCase($v);
                                 break;
                             }
-                            case 'prefix':{
-                                self::$route->prefix= $v;
+                            case 'prefix':
+                            {
+                                self::$route->prefix = $v;
                                 break;
                             }
                             case 'action':
@@ -106,9 +108,11 @@ class Router
                             }
                         }
                     }
-                }return true;
+                }
+                return true;
             }
-        }return false;
+        }
+        return false;
     }
 
     /**
@@ -116,7 +120,8 @@ class Router
      * @param $name
      * @return string
      */
-    protected static function upperCamelCase($name):string{   //решение с курсов
+    protected static function upperCamelCase($name): string
+    {   //решение с курсов
 //        $x = str_replace('-',' ',$name);
 //        debug($x,'after str_replace - ');
 //        $y = ucwords($x);
@@ -124,7 +129,7 @@ class Router
 //        $z = str_replace(' ','',$y);
 //        debug($z,'after str_replace Убратиь пробел ');
 //        return  $z;
-        return str_replace(' ','',ucwords(str_replace('-',' ',$name)));
+        return str_replace(' ', '', ucwords(str_replace('-', ' ', $name)));
     }
 
     /**
@@ -132,13 +137,15 @@ class Router
      * @param $name
      * @return string
      */
-    protected static function loverCamelCase($name):string{
-        return lcfirst(self::upperCamelCase($name)).'Action';
+    protected static function loverCamelCase($name): string
+    {
+        return lcfirst(self::upperCamelCase($name));
     }
 
-    protected static  function removeGetQueryString($url):string {
-        $positionOfQuerySymbol=strripos($url,'?');
-        if($positionOfQuerySymbol===false) return $url;
-        return substr($url,0,$positionOfQuerySymbol);
+    protected static function removeGetQueryString($url): string
+    {
+        $positionOfQuerySymbol = strripos($url, '?'); // Возвращает позицию последнего вхождения подстроки '?' если не найдет false
+        if ($positionOfQuerySymbol === false) return $url; // Рекурсия будет искать до тех пор когда всех  символов '?' не станет
+        return self::removeGetQueryString(substr($url, 0, $positionOfQuerySymbol)); // Рекурсирую функцию которая удаляет все что находиться после '?' включительно.
     }
 }

@@ -20,6 +20,8 @@ class View
     public array $data= [];
     public Meta $meta;
 
+
+    //
     public function __construct(Route $route,string $layout = '',string $view='',Meta $meta=null)
     {
         $this->route      = $route;
@@ -28,11 +30,12 @@ class View
         $this->view       = $view;
         $this->prefix     = $route->prefix;
         $this->meta       = $meta;
-        if($layout===false){
+        if($layout===false){ // в случаях когда в action  указали фолс для предачи ajax запроса без шаблона
             $this->layout=false;
         }
         else{
-            $this->layout = $layout ?:LAYOUT;
+            $this->layout = $layout ?:LAYOUT; // если был передано название шаблона мы его берем
+            // а если пустая строка тогда берем шаблон с константы
         }
     }
 
@@ -42,13 +45,12 @@ class View
     public function render($data){
 
         if(is_array($data)){
-            extract($data);
+            extract($data); // распаковывает масив после функции compact и позволяет пользоватьтся данными как переменными а не как масивом
         }
        $viewFile = APP . "/views/{$this->prefix}{$this->controller}/{$this->view}.php";
        if(is_file($viewFile)) {
-
            ob_start();
-           require_once $viewFile;
+           require_once $viewFile; //
            $content = ob_get_clean();
        }
        else{
@@ -61,7 +63,7 @@ class View
                 require_once $layoutFile;
             }
             else{
-                throw new \Exception("NOT FIND SAMPLE",500);
+                throw new \Exception("NOT FIND LAYOUT",500);
             }
         }
     }
