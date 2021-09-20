@@ -1,9 +1,0 @@
-
-
-<?php
-
-
-
-
-
-/** @var array $names */

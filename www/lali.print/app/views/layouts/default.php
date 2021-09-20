@@ -1,4 +1,5 @@
 <!doctype html>
+<!--шаблон https://newtone-demo.myinsales.ru/-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">

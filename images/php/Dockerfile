@@ -1,6 +1,8 @@
 # Для начала указываем исходный образ, он будет использован как основа
 FROM php:8.0-fpm
+# не сработало RUN echo '[PHP]\ndate.timezone = "Europe/Kiev"\n' > /usr/local/etc/php/conf.d/tzone.ini
 
+RUN echo 'date.timezone = "Europe/Kiev"' > /usr/local/etc/php/conf.d/tzone.ini
 # RUN выполняет идущую за ней команду в контексте нашего образа.
 # В данном случае мы установим некоторые зависимости и модули PHP.
 # Для установки модулей используем команду docker-php-ext-install.
@@ -52,3 +54,8 @@ WORKDIR /var/www
 # Из документации: The main purpose of a CMD is to provide defaults for an executing container. These defaults can include an executable,
 # or they can omit the executable, in which case you must specify an ENTRYPOINT instruction as well.
 CMD ["php-fpm"]
+
+
+#docker stop $(docker ps -a -q)
+#docker rm $(docker ps -a -q)
+
