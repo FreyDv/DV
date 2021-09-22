@@ -3,24 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <title>5_Spiski</title>
-   <style>
-       table {
-           border-collapse: separate;
-           border-spacing: 5px 5px;
-       }
-       table,
-       th,
-       td {
-           border: 1px solid #cecfd5;
-
-       }
-       th,
-       td {
-           padding: 5px 5px;
-       }
+    <link rel="stylesheet" href="7_Tables2.css">
    </style>
 </head>
 <body>
+
+
+<table>
+    <caption>Books to study front-edn</caption>
+    <thead>
+    <tr>
+        <th colspan="2">Name</th>
+        <th>Quantity</th>
+        <th>Costs</th>
+    </tr>
+    </thead>
+<tbody>
+
+<tr>
+    <td><strong>Не заставляйте меня думать</strong><br>Стив Круг</td>
+    <td class="item-stock">На складе</td>
+    <td class="item-qty">1</td>
+    <td class="item-price">$30.02</td>
+</tr>
+<tr>
+    <td><strong>UX-дизайн. Практическое руководство по проектированию опыта взаимодействия</strong><br>Расс Унгер, Кэролайн Чендлер</td>
+    <td class="item-stock">На складе</td>
+    <td class="item-qty">2</td>
+    <td class="item-price">$52.94<br>($26.47 × 2)</td>
+</tr>
+<tr>
+    <td><strong>Изучаем HTML5</strong><br>Брюс Лоусон, Реми Шарп</td>
+    <td class="item-stock">Нет на складе</td>
+    <td class="item-qty">1</td>
+    <td class="item-price">$22.23</td>
+</tr>
+<tr>
+    <td class="item-stock"><strong>Пуленепробиваемый веб-дизайн</strong><br>Дэн Сидерхолм</td>
+    <td class="item-stock">На складе</td>
+    <td class="item-qty">1</td>
+    <td class="item-price">$30.17</td>
+</tr>
+<tr>
+    <td colspan="3"><strong>Summ</strong></td>
+    <td>$135.36</td>
+
+</tr>
+<tr>
+    <td colspan="3"><strong>NDS</strong></td>
+    <td>$13.54</td>
+
+</tr>
+<tr>
+    <td colspan="3"><strong>Results</strong></td>
+    <td>$148.90</td>
+</tr>
+</tbody>
+
+
+
+</table>
+
+
+
+
+
+
+
 
 <table><!--Тег открытия таблицы  -->
     <caption>Шаги Освоения языков програмирования </caption><!--Тег отображения названия таблицы  -->

@@ -1,0 +1,49 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>8_FormAction</title>
+<!--    <link rel="stylesheet" href="7_Tables2.css">-->
+</head>
+<body>
+
+<form action="8_FormAction.html" method="get">
+    <table  border-collapse="separate" border="5">
+        <tr>
+            <td><label for="name">Name: </label></td>
+            <td> <input name="name" id="name"><br></td>
+
+            <td><label for="youNumber">You Number: </label></td>
+            <td><input type="number" name="youNumber" id="youNumber"></td>
+
+            <td>
+                <label for="upachovka">Upachovka: </label>
+                <input type="checkbox" name="upachovka" id="upachovka" >
+            </td>
+        </tr>
+        <tr>
+            <td><label for="sName">Sername: </label></td>
+            <td><input name="sName" id="sName"><br></td>
+
+            <td><label for="samovuvoz">Chose whey: </label></td>
+            <td>
+                <label><input type="radio" name="choseWhey" id="samovuvoz">Samovuvoz</label>
+                <label><input type="radio" name="choseWhey" id="novaPocta">Nova Pocta</label>
+            </td>
+        </tr>
+    </table>
+    <label>Comentariy k zakazu:</label><br>
+        <textarea name ="coment" id="coment"></textarea>
+
+<br>
+    <select size="5" multiple name="city[]"></select>
+
+
+
+
+
+</form>
+
+
+</body>
+ </html>
