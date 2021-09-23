@@ -10,6 +10,6 @@ new ishop\App();
 //debug(\ishop\Router::getRoute(),'Route');
 //debug(\ishop\Router::getRoutes(),'DEF');
 
-
+//throw new Exception('fgdfgdfg',404);
 
 

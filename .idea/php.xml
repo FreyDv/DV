@@ -7,6 +7,7 @@
       <path value="$PROJECT_DIR$/www/lali.print/vendor/ishop/core" />
       <path value="$PROJECT_DIR$/www/lali.print/vendor/ishop/Controller" />
       <path value="$PROJECT_DIR$/www/lali.print/vendor/gabordemooij/redbean" />
+      <path value="$PROJECT_DIR$/www/lali.print/vendor/twbs/bootstrap" />
     </include_path>
   </component>
   <component name="PhpInterpreters">

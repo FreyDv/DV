@@ -2,7 +2,7 @@
 
 
 
-define("DEBUG",1);
+define("DEBUG",0);
 define("ROOT",dirname(__DIR__));
 define("WWW",ROOT.'/public');
 define("APP",ROOT.'/app');

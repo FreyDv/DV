@@ -19,6 +19,7 @@
   },
   "require": {
     "gabordemooij/redbean": "dev-master",
-    "ext-mysqli": "*"
+    "ext-mysqli": "*",
+    "twbs/bootstrap":"5.1.1"
   }
 }
