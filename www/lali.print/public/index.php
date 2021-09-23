@@ -11,5 +11,5 @@ new ishop\App();
 //debug(\ishop\Router::getRoutes(),'DEF');
 
 //throw new Exception('fgdfgdfg',404);
-
+//debug(dirname(__DIR__).'/public/errors/web404_2/index.php');
 

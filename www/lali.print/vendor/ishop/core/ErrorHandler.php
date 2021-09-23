@@ -31,7 +31,8 @@ class ErrorHandler
     protected function displayError($errno,$errstr,$errfile,$errline,$responce=404){
         http_response_code($responce);
         if($responce==404&&!DEBUG){
-            require WWW . '/errors/web404_1/index.php';
+            require WWW . '/errors/web404_2/index.php';
+
             die;
         }
         if(DEBUG){+

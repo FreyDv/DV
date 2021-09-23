@@ -9,7 +9,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <head>
 <title>Free Fuel 404 web template for Iphone, Android & Smartphone Mobile Website Template | Home :: w3layouts</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<link rel="stylesheet" href="/public/css/style.css" type="text/css" media="all"/>
+<link rel="stylesheet" href="var/www/lali.print/public/errors/web404_2/css/style.css" type="text/css" media="all"/>
 <link href='//fonts.googleapis.com/css?family=Strait' rel='stylesheet' type='text/css'>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(
@@ -19,7 +19,7 @@ hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </scri
 <?php //echo WWW."/var/www/lali.print/public/images/maria.png" ?>
 			<div class="wrap">
 				<h1>Company Name</h1>
-				<div class="banner"><img src="/var/www/lali.print/public/images/maria.png" alt="" /></div>
+				<div class="banner"><img src="var/www/lali.print/public/errors/web404_2/images/web404-logo.png" alt="" /></div>
 				<div class="search">
 					<form>
 						<input type="text"  value="" placeholder="drop your email " />

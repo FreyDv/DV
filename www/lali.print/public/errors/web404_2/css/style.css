@@ -68,6 +68,7 @@ h1{
 
 }
 .search input[type="submit"]{
+/*../images/sub-bttn.png*/
 	background: url(../images/sub-bttn.png);
 	width: 32px;
 	height: 51px;
