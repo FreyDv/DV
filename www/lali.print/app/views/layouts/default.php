@@ -12,13 +12,6 @@
 </head>
 <body>
  <?=$content;?>
-
-
-
-
-
-
-
  <?php
  use RedBeanPHP\R;
  $logs = R::getDatabaseAdapter()

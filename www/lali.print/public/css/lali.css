@@ -1,0 +1,24 @@
+sad{
+    background: rgb(148,148,241);
+    background: radial-gradient(circle, rgba(148,148,241,1) 0%, rgba(176,93,16,1) 100%);}
+
+header,footer,section{
+    padding: 10vh 20vh;
+}
+/**/
+.header-wrap{
+    display: flex;
+    justify-content: center;
+}
+.header-image{
+    background: radial-gradient(circle, rgba(148,148,241,1) 0%, rgba(176,93,16,1) 100%);
+    background-size: auto;
+    background-position: center;
+}
+header,footer{
+
+    /*background:url("../images/munn.png") center no-repeat;*/
+    /*radial-gradient(circle, rgba(148,148,241,1) 0%, rgba(176,93,16,1) 100%)*/
+    /*background-size: contain;*/
+    /*background-position: center;*/
+}
