@@ -49,17 +49,24 @@ a:active{
     margin-bottom: 10px;
 }
 .table{
+    /*border: 2px double #0f141e;*/
     width:100%
 }
-.table td{
-    padding-bottom: 10px;
+.table tr{
     align-content: center;
+}
+.table td{
+
+    width: 33.33%;
+    /*border: 2px double red;*/
+    text-align: center;
 }
 .table th:nth-child(2),
 .table th:nth-child(3),
 .table td:nth-child(2),
 .table td:nth-child(3){
     color: #999999;
+    align-content: center;
 }
 
 /*.table tr:nth-child(parety){*/
@@ -68,15 +75,30 @@ a:active{
 .avatar{
 /*  # -id  */
 /* . классы могут повторятся а id должны быть уникальными*/
-    width:255px;
+    width:340px;
     border-radius: 50%; /* Сделать фото круглым */
-    border-radius: 20px; /* Сделать фото с закруглеными углами !!!  Последнее свойство всегда перебивает предидушее*/
+    /*border-radius: 20px; !* Сделать фото с закруглеными углами !!!  Последнее свойство всегда перебивает предидушее*!*/
     box-shadow: 4px 4px 14px rgba(0,0,0,025);
 }
-.info{
-    margin-bottom: 20px;
+#instagram{
+    border-radius: 50%;
+    width:100px;
 }
-.info p {
+#telegram{
+    border-radius: 50%;
+    width:100px;
+}
+.info{
+    padding-bottom: 350px;
+}
+.info > div{
+    float: left;
+    width: 50%;
+}
+.rightInfo {
+    display: inline-block;
+}
+.info p{
     color: #86898f; /*цвет текста*/
     margin: 2px; /*отступ*/
     font-style: italic; /*наклон текста*/
@@ -93,6 +115,7 @@ a:active{
     /*letter-spacing: 12px; !*отступы между каждым символом*!*/
     /*word-spacing: 25px; !*отступы между словами*!*/
 }
+
 /*.container{*/
 /*    max-width: 1200px;*/
 /*    margin: auto;*/
